@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "47ba46c7-99d7-4319-975b-51462b2ef77e",
+		"name": "Fizicko Lice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25920666"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7013/api/FizickoLice",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"api",
+						"FizickoLice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7013/api/FizickoLice/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"api",
+						"FizickoLice",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"fizickoLiceID\": 0,\r\n  \"ime\": \"string\",\r\n  \"prezime\": \"string\",\r\n  \"jmbg\": \"stringg\",\r\n  \"brojTelefona1\": \"string\",\r\n  \"brojTelefona2\": \"string\",\r\n  \"email\": \"string\",\r\n  \"brojRacuna\": \"string\",\r\n  \"adresaID\": 0,\r\n  \"kontaktOsobaID\": 0,\r\n  \"licnostID\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7013/api/FizickoLice",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"api",
+						"FizickoLice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"fizickoLiceID\": 2,\r\n  \"ime\": \"string\",\r\n  \"prezime\": \"string\",\r\n  \"jmbg\": \"string\",\r\n  \"brojTelefona1\": \"string\",\r\n  \"brojTelefona2\": \"string\",\r\n  \"email\": \"string\",\r\n  \"brojRacuna\": \"string\",\r\n  \"adresaID\": 0,\r\n  \"kontaktOsobaID\": 0,\r\n  \"licnostID\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7013/api/FizickoLice/1002https://localhost:7013/api/FizickoLice/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"api",
+						"FizickoLice",
+						"1002https:",
+						"",
+						"localhost:7013",
+						"api",
+						"FizickoLice",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7013/api/FizickoLice/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"api",
+						"FizickoLice",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "6ff2f84d-ca37-4cb3-84e2-09507784ab6b",
+		"name": "Kupac",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25920666"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7013/api/Kupac",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"api",
+						"Kupac"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETBYID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7013/api/Kupac/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"api",
+						"Kupac",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"kupacID\": 0,\r\n  \"prioritet\": \"string\",\r\n  \"lice\": \"1\",\r\n  \"ostvarenaPovrsina\": 0,\r\n  \"uplate\": \"string\",\r\n  \"ovlascenoLice\": \"string\",\r\n  \"imaZabranu\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7013/api/Kupac",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"api",
+						"Kupac"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"kupacID\": 2,\r\n  \"prioritet\": \"string\",\r\n  \"lice\": \"TEST\",\r\n  \"ostvarenaPovrsina\": 0,\r\n  \"uplate\": \"string\",\r\n  \"ovlascenoLice\": \"string\",\r\n  \"imaZabranu\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7013/api/Kupac/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"api",
+						"Kupac",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7013/api/Kupac/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"api",
+						"Kupac",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

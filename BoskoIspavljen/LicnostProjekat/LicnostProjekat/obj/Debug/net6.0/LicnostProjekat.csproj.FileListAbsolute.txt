@@ -1,0 +1,290 @@
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\appsettings.json
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\LicnostProjekat.exe
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\LicnostProjekat.deps.json
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\LicnostProjekat.runtimeconfig.json
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\LicnostProjekat.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\LicnostProjekat.pdb
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.csproj.AssemblyReference.cache
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.AssemblyInfoInputs.cache
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.AssemblyInfo.cs
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.csproj.CoreCompileInputs.cache
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets\msbuild.LicnostProjekat.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets\msbuild.build.LicnostProjekat.props
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LicnostProjekat.props
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LicnostProjekat.props
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\scopedcss\bundle\LicnostProjekat.styles.css
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.csproj.CopyComplete
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\refint\LicnostProjekat.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.pdb
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.genruntimeconfig.cache
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\ref\LicnostProjekat.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\doc.xml
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Adresa.postman_collection.json
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Fizicko Lice.postman_collection.json
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Kontakt Osoba.postman_collection.json
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Kupac.postman_collection.json
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Licnost.postman_collection.json
+C:\Users\Bosko\source\repos\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Pravno Lice.postman_collection.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.csproj.AssemblyReference.cache
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.AssemblyInfoInputs.cache
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.AssemblyInfo.cs
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.csproj.CoreCompileInputs.cache
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\refint\LicnostProjekat.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.pdb
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Adresa.postman_collection.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Fizicko Lice.postman_collection.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Kontakt Osoba.postman_collection.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Kupac.postman_collection.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Licnost.postman_collection.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Pravno Lice.postman_collection.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\appsettings.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\LicnostProjekat.exe
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\LicnostProjekat.deps.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\LicnostProjekat.runtimeconfig.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\LicnostProjekat.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\LicnostProjekat.pdb
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\doc.xml
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets\msbuild.LicnostProjekat.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets\msbuild.build.LicnostProjekat.props
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LicnostProjekat.props
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LicnostProjekat.props
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\scopedcss\bundle\LicnostProjekat.styles.css
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.csproj.CopyComplete
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.genruntimeconfig.cache
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\UNZIPPED\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\ref\LicnostProjekat.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\appsettings.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Adresa.postman_collection.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Fizicko Lice.postman_collection.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Kontakt Osoba.postman_collection.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Kupac.postman_collection.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Licnost.postman_collection.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Postman\Pravno Lice.postman_collection.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\LicnostProjekat.exe
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\LicnostProjekat.deps.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\LicnostProjekat.runtimeconfig.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\LicnostProjekat.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\LicnostProjekat.pdb
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\doc.xml
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.csproj.AssemblyReference.cache
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.AssemblyInfoInputs.cache
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.AssemblyInfo.cs
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.csproj.CoreCompileInputs.cache
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets\msbuild.LicnostProjekat.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets\msbuild.build.LicnostProjekat.props
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LicnostProjekat.props
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LicnostProjekat.props
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\scopedcss\bundle\LicnostProjekat.styles.css
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.csproj.CopyComplete
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\refint\LicnostProjekat.dll
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.pdb
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\LicnostProjekat.genruntimeconfig.cache
+C:\Users\Sergej\OneDrive\Desktop\PROJEKAT URIS\Projekat URUS\Bosko\LicnostProjekat_Bosko\LicnostProjekat\LicnostProjekat\obj\Debug\net6.0\ref\LicnostProjekat.dll

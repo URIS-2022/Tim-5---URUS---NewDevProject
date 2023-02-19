@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "a1aa46f1-5556-4eeb-9523-8ad375c3cd8c",
+		"name": "Kontakt Osoba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25920666"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7013/KontaktOsoba",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"KontaktOsoba"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"kontaktOsobaID\": 0,\r\n  \"ime\": \"Boloo\",\r\n  \"prezime\": \"string\",\r\n  \"funkcija\": \"string\",\r\n  \"telefon\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7013/KontaktOsoba",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"KontaktOsoba"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETbyID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7013/KontaktOsoba/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"KontaktOsoba",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"kontaktOsobaID\": 2,\r\n  \"ime\": \"test\",\r\n  \"prezime\": \"string\",\r\n  \"funkcija\": \"string\",\r\n  \"telefon\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7013/KontaktOsoba/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"KontaktOsoba",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7013/KontaktOsoba/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"KontaktOsoba",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

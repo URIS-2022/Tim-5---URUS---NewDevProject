@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LicnostProjekat</name>
+    </assembly>
+    <members>
+        <member name="M:LicnostProjekat.Controllers.AdresaController.getAdresas">
+            <summary>
+            Predstavlja kontroler Adrese
+            </summary>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.AdresaController.GetAdresa(System.Int32)">
+            <summary>
+            Vraća sve Adrese 
+            </summary>
+            <returns>Listu Adresa</returns>
+            
+        </member>
+        <member name="M:LicnostProjekat.Controllers.AdresaController.CreateAdresa(LicnostProjekat.Data.DTO.AdresaDTO)">
+            <summary>
+            Vraća Adresu po zadatoj vrednosti id-a
+            </summary>
+            <param name="adresaID"></param>
+            <returns>Objekat Adrese</returns>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.AdresaController.UpdateAdresa(System.Int32,LicnostProjekat.Data.DTO.AdresaDTO)">
+            <summary>
+            Kreira novu Adresu
+            </summary>
+            <param name="adresaCreate"></param>
+            <returns>Potvrdu o Kreiranoj  Adresi</returns>
+            <response code="204">Adresa uspesno obrisan</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjena Adresa za brisanje</response>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.AdresaController.DeleteAdresa(System.Int32)">
+            <summary>
+            Menja vrednosti postojeće adrese
+            </summary>
+            <param name="updatedAdresa"></param>
+            <returns>Potvrdu o izmenjenoj adresi</returns>
+        </member>
+        <member name="T:LicnostProjekat.Controllers.FizickoLiceController">
+            <summary>
+            Predstavlja kontroler Fizickog Lica
+            </summary>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.FizickoLiceController.getFizickoLice(System.Int32)">
+            <summary>
+            Vraća sva Fizicka Lica 
+            </summary>
+            <returns>Listu Fizickoh lica</returns>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.FizickoLiceController.CreateFizickoLice(LicnostProjekat.Data.DTO.FizickoLicePostDTO)">
+            <summary>
+            Vraća Fizicko Lice po zadatoj vrednosti id-a
+            </summary>
+            <param name="fizickoLiceID"></param>
+            <returns>Objekat Fizickog Lica</returns>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.FizickoLiceController.UpdateFizickoLice(System.Int32,LicnostProjekat.Data.DTO.FizickoLiceUpdateDTO)">
+            <summary>
+            Kreira novo Fizicko Lice
+            </summary>
+            <param name="fizickoLiceCreate"></param>
+            <returns>Potvrdu o kreiranom Fizickom Licu</returns>
+            <response code="204">Nema sadrzaja u odgovoru</response>
+            <response code="400">Poslat neispravan zahtev</response>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.FizickoLiceController.DeleteFizickoLice(System.Int32)">
+            <summary>
+            Menja vrednosti postojećeg Fizickog lIca
+            </summary>
+            <param name="fizickoLiceUpdate"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.KontaktOsobaController.getKontaktOsoba(System.Int32)">
+            <summary>
+            Vraća sve Kontakt Osobe 
+            </summary>
+            <returns>Listu Kontakt Osoba</returns>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.KontaktOsobaController.CreateKontaktOsoba(LicnostProjekat.Data.DTO.KontaktOsobaDTO)">
+            <summary>
+            Vraća Kontakt Osobu po zadatoj vrednosti id-a
+            </summary>
+            <param name="kontaktOsobaID"></param>
+            <returns>Objekat KontaktOsobe</returns>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.KontaktOsobaController.UpdateKontaktOsoba(System.Int32,LicnostProjekat.Data.DTO.KontaktOsobaDTO)">
+            <summary>
+            Kreira novu Kontakt Osobu
+            </summary>
+            <param name="KontaktOsoba"></param>
+            <returns>Potvrdu o kreiranom oglasu</returns>
+            <response code="204">Kontakt Osoba kreirana</response>
+            <response code="400">Poslat neispravan zahtev</response>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.KontaktOsobaController.DeleteKontatkOsoba(System.Int32)">
+            <summary>
+            Menja vrednosti postojeće Kontakt Osobe
+            </summary>
+            <param name="updatedKontaktOsoba"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.KupacController.GetKupac(System.Int32)">
+            <summary>
+            Vraća sve Kupce 
+            </summary>
+            <returns>Listu kupaca</returns>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.KupacController.CreateAdresa(LicnostProjekat.Data.DTO.KupacDTO)">
+            <summary>
+            Vraća Kupca po zadatoj vrednosti id-a
+            </summary>
+            <param name="kupacID"></param>
+            <returns>Objekat Kupca</returns>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.KupacController.UpdateKupac(System.Int32,LicnostProjekat.Data.DTO.KupacDTO)">
+            <summary>
+            Kreira novog Kupca
+            </summary>
+            <param name="kupacCreate"></param>
+            <returns>Potvrdu o kreiranom Kupcu</returns>
+            <response code="204">Predsednik uspesno kreiran</response>
+            <response code="400">Poslat neispravan zahtev</response>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.KupacController.DeleteKupac(System.Int32)">
+            <summary>
+            Menja vrednosti postojećeg kupca
+            </summary>
+            <param name="updatedKupac"></param>
+            <returns>Potvrdu o izmenjenom kupcu</returns>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.LicnostController.GetLicnost(System.Int32)">
+            <summary>
+            Vraća sve licnosti 
+            </summary>
+            <returns>Listu licnosti</returns>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.LicnostController.CreateLicnost(LicnostProjekat.Data.DTO.LicnostPostDTO)">
+            <summary>
+            Vraća licnost po zadatoj vrednosti id-a
+            </summary>
+            <param name="licnostID"></param>
+            <returns>Objekat Licnost</returns>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.LicnostController.UpdateLicnost(System.Int32,LicnostProjekat.Data.DTO.LicnostUpdateDTO)">
+            <summary>
+            Kreira novu Licnost
+            </summary>
+            <param name="licnostCreate"></param>
+            <returns>Potvrdu o kreiranoj licnosti</returns>
+            <response code="204">licnost uspesno kreirana</response>
+            <response code="400">Poslat neispravan zahtev</response>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.LicnostController.DeleteLicnost(System.Int32)">
+            <summary>
+            Menja vrednosti postojećeg licnosti
+            </summary>
+            <param name="updatedLicnost"></param>
+            <returns>Potvrdu o izmenjenoj Licnosti</returns>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.PravnoLiceController.getPravnoLice(System.Int32)">
+            <summary>
+            Vraća sva pravna lica 
+            </summary>
+            <returns>Listu pravnih lica</returns>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.PravnoLiceController.CreateAdresa(LicnostProjekat.Data.DTO.PravnoLicePostDTO)">
+            <summary>
+            Vraća pravno lice po zadatoj vrednosti id-a
+            </summary>
+            <param name="pravnoLiceID"></param>
+            <returns>Objekat PravnoLice</returns>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.PravnoLiceController.UpdatePravnoLice(System.Int32,LicnostProjekat.Data.DTO.PravnoLiceUpdateDTO)">
+            <summary>
+            Kreira novo pravno lice
+            </summary>
+            <param name="pravnoLiceCreate"></param>
+            <returns>Potvrdu o kreiranom pravnom licu</returns>
+            <response code="204">pravno lice uspesno kreirano</response>
+            <response code="400">Poslat neispravan zahtev</response>
+        </member>
+        <member name="M:LicnostProjekat.Controllers.PravnoLiceController.DeletePravnoLice(System.Int32)">
+            <summary>
+            Menja vrednosti postojećeg pravnog lica
+            </summary>
+            <param name="updatedPravnoLice"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.AdresaDTO.AdresaID">
+            <summary>
+            Predstavlja model Adrese
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.AdresaDTO.Ulica">
+            <summary>
+            Predstavlja ID Adrese
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.AdresaDTO.Broj">
+            <summary>
+            Predstavlja naziv Ulice
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.AdresaDTO.Mesto">
+            <summary>
+            Predstavlja Broj u ulici
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.AdresaDTO.PostanskiBroj">
+            <summary>
+            Predstavlja Grad 
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.AdresaDTO.Drzava">
+            <summary>
+            Predstavlja Postanski Broj grada
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLiceDTO.Ime">
+            <summary>
+            Predstavlja ID Fizickog lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLiceDTO.Prezime">
+            <summary>
+            Predstavlja Ime Fizickog Lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLiceDTO.BrojTelefona1">
+            <summary>
+            Predstavlja Prezime FIzickog Lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLiceDTO.BrojTelefona2">
+            <summary>
+            Predstavlja broj telefona
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLiceDTO.Email">
+            <summary>
+            Predstavlja broj telefona
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLiceDTO.JMBG">
+            <summary>
+            Predstavlja Email adresu Fizickog lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLiceDTO.adresa">
+            <summary>
+            Predstavlja JMBG Fizickog Lica
+            </summary>
+            public Adresa adresa { get; set; }
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLicePostDTO.Ime">
+            <summary>
+            Predstavlja ID Fizickog lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLicePostDTO.Prezime">
+            <summary>
+            Predstavlja Ime Fizickog Lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLicePostDTO.BrojTelefona1">
+            <summary>
+            Predstavlja Prezime FIzickog Lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLicePostDTO.BrojTelefona2">
+            <summary>
+            Predstavlja broj telefona
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLicePostDTO.Email">
+            <summary>
+            Predstavlja broj telefona
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLicePostDTO.JMBG">
+            <summary>
+            Predstavlja Email adresu Fizickog lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLicePostDTO.BrojRacuna">
+            <summary>
+            Predstavlja JMBG Fizickog Lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLiceUpdateDTO.Ime">
+            <summary>
+            Predstavlja ID Fizickog lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLiceUpdateDTO.Prezime">
+            <summary>
+            Predstavlja Ime Fizickog Lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLiceUpdateDTO.BrojTelefona1">
+            <summary>
+            Predstavlja Prezime FIzickog Lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLiceUpdateDTO.BrojTelefona2">
+            <summary>
+            Predstavlja broj telefona
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLiceUpdateDTO.Email">
+            <summary>
+            Predstavlja broj telefona
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLiceUpdateDTO.JMBG">
+            <summary>
+            Predstavlja Email adresu Fizickog lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.FizickoLiceUpdateDTO.BrojRacuna">
+            <summary>
+            Predstavlja JMBG Fizickog Lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.KontaktOsobaDTO.Ime">
+            <summary>
+            Predstavlja ID Kontakt Osobe
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.KontaktOsobaDTO.Prezime">
+            <summary>
+            Predstavlja Ime Kontakt Osobe
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.KontaktOsobaDTO.Funkcija">
+            <summary>
+            Predstavlja Prezime Kontakt Osobe
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.KontaktOsobaDTO.Telefon">
+            <summary>
+            Predstavlja Funkciju Kontakt Osobe
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.KupacDTO.Prioritet">
+            <summary>
+            Predstavlja ID Kupca
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.KupacDTO.Lice">
+            <summary>
+            Predstavlja Prioritet Kupca
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.KupacDTO.OstvarenaPovrsina">
+            <summary>
+            Predstavlja Lice 
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.KupacDTO.Uplate">
+            <summary>
+            Predstavlja Ostvarenu povrsinu Kupca
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.KupacDTO.ImaZabranu">
+            <summary>
+            Predstavlja Ovlasceno lice od strane Kupca
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.LicnostDTO.Ime">
+            <summary>
+            Predstavlja ID Licnosti
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.LicnostDTO.Prezime">
+            <summary>
+            Predstavlja IME Licnosti
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.LicnostDTO.Funkcija">
+            <summary>
+            Predstavlja Prezime Licnosti
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.LicnostDTO.KupacID">
+            <summary>
+            Predstavlja Funkciju Licnosti
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.LicnostDTO.kupac">
+            <summary>
+            Predstavlja ID Kupca
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.PravnoLiceDTO.Ime">
+            <summary>
+            Predstavlja ID Pravnog Lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.PravnoLiceDTO.Prezime">
+            <summary>
+            Predstavlja Ime Pravnog Lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.PravnoLiceDTO.BrojTelefona1">
+            <summary>
+            Predstavlja Prezime Pravnog Lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.PravnoLiceDTO.BrojTelefona2">
+            <summary>
+            Predstavlja Broj Telefona Pravnog Lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.PravnoLiceDTO.Faks">
+            <summary>
+            Predstavlja broj telefona Pravnog Lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.PravnoLiceDTO.Email">
+            <summary>
+            Predstavlja FAKS Pravnog Lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.PravnoLiceDTO.KupacID">
+            <summary>
+            Predstavlja Email Pravnog Lica
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.PravnoLiceDTO.BrojRacuna">
+            <summary>
+            Predstavlja ID kupca
+            </summary>
+        </member>
+        <member name="P:LicnostProjekat.Data.DTO.PravnoLiceDTO.JMBG">
+            <summary>
+            Predstavlja broj racuna Pravnog Lica
+            </summary>
+        </member>
+        <member name="T:LicnostProjekat.Migrations.mig1">
+            <inheritdoc />
+        </member>
+        <member name="M:LicnostProjekat.Migrations.mig1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LicnostProjekat.Migrations.mig1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LicnostProjekat.Migrations.mig1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
