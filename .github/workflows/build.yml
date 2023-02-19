@@ -55,5 +55,6 @@ jobs:
           dotnet publish Pavle/NadmetanjeApp/NadmetanjeApp.sln -c Debug -o out
           dotnet publish Sergej/Dokument_Sergej/Dokument_Sergej.sln -c Debug -o out
           dotnet publish Sergej/Komisija_Sergej/Komisija_Sergej.sln -c Debug -o out
+          dotnet publish BoskoIspravljen/LicnostProjekat/LicnostProjekat.sln -c Debug -o out
           dotnet build
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
