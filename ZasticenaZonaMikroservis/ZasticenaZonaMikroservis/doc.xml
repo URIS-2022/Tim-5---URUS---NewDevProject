@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZasticenaZonaMikroservis</name>
+    </assembly>
+    <members>
+        <member name="T:ZasticenaZonaMikroservis.Controllers.ZasticenaZonaAPIController">
+            <summary>
+            Predstavlja kontroler zasticene zone
+            </summary>
+        </member>
+        <member name="M:ZasticenaZonaMikroservis.Controllers.ZasticenaZonaAPIController.GetZasticeneZone">
+            <summary>
+            Vraća sve zasticene zone 
+            </summary>
+            <returns>Listu zasticenih zona</returns>
+        </member>
+        <member name="M:ZasticenaZonaMikroservis.Controllers.ZasticenaZonaAPIController.GetZasticenaZona(System.Int32)">
+            <summary>
+            Vraća zasticenu zonu po zadatoj vrednosti id-a
+            </summary>
+            <param name="ZasticenaZonaID"></param>
+            <returns>Objekat zasticena zona</returns>
+        </member>
+        <member name="M:ZasticenaZonaMikroservis.Controllers.ZasticenaZonaAPIController.CreateZasticenaZona(ZasticenaZonaMikroservis.Models.DTO.ZasticenaZonaDTO)">
+            <summary>
+            Kreira novu zasticenu zonu
+            </summary>
+            <param name="zasticenaZonaDTO"></param>
+            <returns>Potvrdu o kreiranoj zasticenoj zoni</returns>
+        </member>
+        <member name="M:ZasticenaZonaMikroservis.Controllers.ZasticenaZonaAPIController.DeleteZasticenaZona(System.Int32)">
+            <summary>
+            Briše zasticenu zonu po zadatoj vrednosti id-a
+            </summary>
+            <param name="ZasticenaZonaID"></param>
+        </member>
+        <member name="M:ZasticenaZonaMikroservis.Controllers.ZasticenaZonaAPIController.UpdateZasticenaZona(System.Int32,ZasticenaZonaMikroservis.Models.DTO.ZasticenaZonaDTO)">
+            <summary>
+            Menja vrednosti postojeće zasticene zone
+            </summary>
+            <param name="Zasticena zonazona"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="T:ZasticenaZonaMikroservis.Models.DTO.ZasticenaZonaDTO">
+            <summary>
+            Predstavlja model zasticene zone
+            </summary>
+        </member>
+        <member name="P:ZasticenaZonaMikroservis.Models.DTO.ZasticenaZonaDTO.ZasticenaZonaID">
+            <summary>
+            Id zasticene zone
+            </summary>
+        </member>
+        <member name="P:ZasticenaZonaMikroservis.Models.DTO.ZasticenaZonaDTO.DozvoljeniRadovi">
+            <summary>
+            dozvoljeni radovi u okviru zasticene zone
+            </summary>
+        </member>
+        <member name="P:ZasticenaZonaMikroservis.Models.DTO.ZasticenaZonaDTO.StepenZastite">
+            <summary>
+            Stepen zastite zasticene zone
+            </summary>
+        </member>
+        <member name="P:ZasticenaZonaMikroservis.Models.DTO.ZasticenaZonaDTO.VrstaZasticenogPodrucja">
+            <summary>
+            vrsta zasticenog podrucja
+            </summary>
+        </member>
+    </members>
+</doc>

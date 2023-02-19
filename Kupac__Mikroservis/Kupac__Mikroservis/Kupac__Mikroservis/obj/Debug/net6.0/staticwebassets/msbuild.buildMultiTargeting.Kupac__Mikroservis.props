@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Kupac__Mikroservis.props" />
+</Project>

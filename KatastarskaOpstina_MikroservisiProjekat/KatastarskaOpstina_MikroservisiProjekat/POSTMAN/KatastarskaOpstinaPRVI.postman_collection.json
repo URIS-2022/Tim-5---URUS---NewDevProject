@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "fbc9a3b6-ba4f-4366-be7f-7cf86ff79b0b",
+		"name": "KatastarskaOpstinaPRVI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25920710"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7182/api/KatastarskaOpstinaAPIController",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7182",
+					"path": [
+						"api",
+						"KatastarskaOpstinaAPIController"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7182/api/KatastarskaOpstinaAPIController/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7182",
+					"path": [
+						"api",
+						"KatastarskaOpstinaAPIController",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"katastarskaOpstinaId\": 0,\r\n  \"katastarskaOpstinaNaziv\": \"test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7182/api/KatastarskaOpstinaAPIController",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7182",
+					"path": [
+						"api",
+						"KatastarskaOpstinaAPIController"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"katastarskaOpstinaId\": 3,\r\n  \"katastarskaOpstinaNaziv\": \"PUTTEST\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7182/api/KatastarskaOpstinaAPIController/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7182",
+					"path": [
+						"api",
+						"KatastarskaOpstinaAPIController",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7182/api/KatastarskaOpstinaAPIController/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7182",
+					"path": [
+						"api",
+						"KatastarskaOpstinaAPIController",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "74a435a6-d32e-4fd6-88ef-db66aa8bfa99",
+		"name": "Kupac",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25920706"
+	},
+	"item": [
+		{
+			"name": "GetAllKupac",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7004/api/KupacVOAPIController",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"KupacVOAPIController"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetKupacByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7004/api/KupacVOAPIController/667",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"KupacVOAPIController",
+						"667"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostKupac",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"prioritet\": \"provera put-a\",\r\n    \"lice\": \"nije ovlasceno\",\r\n    \"ostvarenaPovrsina\": 1505005,\r\n    \"imaZabranu\": true,\r\n    \"datumPocetkaZabrane\": \"2014-06-06T00:00:00\",\r\n    \"duzinaTrajanjaZabraneUGodinama\": 12\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7004/api/KupacVOAPIController",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"KupacVOAPIController"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutKupac",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"kupacID\": 669,\r\n        \"prioritet\": \"provera put-a postman\",\r\n        \"lice\": \"nije ovlasceno\",\r\n        \"ostvarenaPovrsina\": 1505005,\r\n        \"imaZabranu\": true,\r\n        \"datumPocetkaZabrane\": \"2014-06-06T00:00:00\",\r\n        \"duzinaTrajanjaZabraneUGodinama\": 12\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7004/api/KupacVOAPIController/669",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"KupacVOAPIController",
+						"669"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteKupac",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7004/api/KupacVOAPIController/669",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"KupacVOAPIController",
+						"669"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

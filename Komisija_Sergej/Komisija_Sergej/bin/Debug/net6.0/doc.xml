@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Komisija_Sergej</name>
+    </assembly>
+    <members>
+        <member name="T:Komisija_Sergej.Controllers.KomisijaController">
+            <summary>
+            Predstavlja kontroler komisije
+            </summary>
+        </member>
+        <member name="M:Komisija_Sergej.Controllers.KomisijaController.GetKomisije">
+            <summary>
+            Vraća sve iz komisije 
+            </summary>
+            <returns>Lista komisije</returns>
+        </member>
+        <member name="M:Komisija_Sergej.Controllers.KomisijaController.GetKomisija(System.Int32)">
+            <summary>
+            Vraća komisiju po zadatoj vrednosti id-a
+            </summary>
+            <param name="komisijaId"></param>
+            <returns>Objekat komisije</returns>
+        </member>
+        <member name="M:Komisija_Sergej.Controllers.KomisijaController.CreateKomisija(Komisija_Sergej.Models.Komisija)">
+            <summary>
+            Kreira novu komisiju
+            </summary>
+            <param name="komisija"></param>
+            <returns>Potvrdu o kreiranoj komisiji</returns>
+            <response code="204">Komisija uspesno obrisana</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjena komisija za brisanje</response>
+        </member>
+        <member name="M:Komisija_Sergej.Controllers.KomisijaController.UpdateKomisija(System.Int32,Komisija_Sergej.Models.Komisija)">
+            <summary>
+            Menja vrednosti postojeće komisije
+            </summary>
+            <param name="Komisija"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="M:Komisija_Sergej.Controllers.KomisijaController.DeleteKomisija(System.Int32)">
+            <summary>
+            Briše komisiju po zadatoj vrednosti id-a
+            </summary>
+            <param name="komisijaId"></param>
+        </member>
+        <member name="T:Komisija_Sergej.Data.DTO.KomisijaDTO">
+            <summary>
+            Predstavlja model komisije
+            </summary>
+        </member>
+        <member name="P:Komisija_Sergej.Data.DTO.KomisijaDTO.KomisijaID">
+            <summary>
+            Id komisije
+            </summary>
+        </member>
+        <member name="P:Komisija_Sergej.Data.DTO.KomisijaDTO.Predsednik">
+            <summary>
+            Predsednik komisije
+            </summary>
+        </member>
+        <member name="P:Komisija_Sergej.Data.DTO.KomisijaDTO.Clan">
+            <summary>
+            Clan komisije
+            </summary>
+        </member>
+        <member name="T:Komisija_Sergej.Migrations.InitiallCOmit">
+            <inheritdoc />
+        </member>
+        <member name="M:Komisija_Sergej.Migrations.InitiallCOmit.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Komisija_Sergej.Migrations.InitiallCOmit.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Komisija_Sergej.Migrations.InitiallCOmit.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

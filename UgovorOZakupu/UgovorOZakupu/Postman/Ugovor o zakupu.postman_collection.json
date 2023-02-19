@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "8187d772-0efd-47df-b201-7cd753ea5006",
+		"name": "Ugovor o zakupu",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25920706"
+	},
+	"item": [
+		{
+			"name": "GetAllUgovorOZakupu",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7004/api/UgovorOZakupuAPIController",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"UgovorOZakupuAPIController"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUgovorOZakupuByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7004/api/UgovorOZakupuAPIController/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"UgovorOZakupuAPIController",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostUgovorOZakupu",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"odluka\": \"nije donesena nikakva konacna odluka\",\r\n        \"tipGarancije\": \"godisnja\",\r\n        \"lice\": \"neko lice\",\r\n        \"rokoviDospeca\": 2,\r\n        \"zavodniBroj\": \"123a\",\r\n        \"datumZavodjenja\": \"2022-12-01T00:00:00\",\r\n        \"ministar\": \"ekonomije\",\r\n        \"rokZaVracanjeZemljista\": \"2026-12-01T00:00:00\",\r\n        \"mestoPotpisivanja\": \"Beograd\",\r\n        \"datumPotpisa\": \"2022-12-01T00:00:00\",\r\n        \"javnoNadmetanjeID\": 6,\r\n        \"dokumentID\": 7,\r\n        \"kupacID\": 666,\r\n        \"licnostID\": 65\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7004/api/UgovorOZakupuAPIController",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"UgovorOZakupuAPIController"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutUgovorOZakupu",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"ugovorID\": 7,\r\n        \"odluka\": \"nije donesena nikakva konacna odluka\",\r\n        \"tipGarancije\": \"godisnja prove\",\r\n        \"lice\": \"neko lice\",\r\n        \"rokoviDospeca\": 2,\r\n        \"zavodniBroj\": \"123a\",\r\n        \"datumZavodjenja\": \"2022-12-01T00:00:00\",\r\n        \"ministar\": \"ekonomije\",\r\n        \"rokZaVracanjeZemljista\": \"2026-12-01T00:00:00\",\r\n        \"mestoPotpisivanja\": \"Beograd\",\r\n        \"datumPotpisa\": \"2022-12-01T00:00:00\",\r\n        \"javnoNadmetanjeID\": 6,\r\n        \"dokumentID\": 7,\r\n        \"kupacID\": 666,\r\n        \"licnostID\": 65\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7004/api/UgovorOZakupuAPIController/7",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"UgovorOZakupuAPIController",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUgovorOZakupu",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7004/api/UgovorOZakupuAPIController/7",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"UgovorOZakupuAPIController",
+						"7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UgovorOZakupu</name>
+    </assembly>
+    <members>
+        <member name="T:UgovorOZakupu.Controllers.DokumentVOAPIController">
+            <summary>
+            Predstavlja kontroler dokumenta
+            </summary>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.DokumentVOAPIController.GetDokumenta">
+            <summary>
+            Vraća sva dokumenta 
+            </summary>
+            <returns>Listu dokumenata</returns>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.DokumentVOAPIController.GetDokument(System.Int32)">
+            <summary>
+            Vraća dokument po zadatoj vrednosti id-a
+            </summary>
+            <param name="DokumentID"></param>
+            <returns>Objekat dokumenta</returns>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.DokumentVOAPIController.CreateDocument(UgovorOZakupu.Models.DokumentVO)">
+            <summary>
+            Kreira novi dokument
+            </summary>
+            <param name="dokumentVO"></param>
+            <returns>Potvrdu o kreiranom dokumentu</returns>
+            <response code="204">Dokument uspesno kreiran</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjena vrednost</response>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.DokumentVOAPIController.DeleteDokument(System.Int32)">
+            <summary>
+            Briše dokument po zadatoj vrednosti id-a
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.DokumentVOAPIController.UpdateDokument(System.Int32,UgovorOZakupu.Models.DTOs.DokumentVOdto)">
+            <summary>
+            Menja vrednosti postojećeg dokumenta
+            </summary>
+            <param name="updatedDokumentVO"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="T:UgovorOZakupu.Controllers.JavnoNadmetanjeVOAPIController">
+            <summary>
+            Predstavlja kontroler javnog nadmetanja
+            </summary>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.JavnoNadmetanjeVOAPIController.GetJavnaNadmetanja">
+            <summary>
+            Vraća sva javna nadmetanja 
+            </summary>
+            <returns>Listu javnih nadmetanja</returns>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.JavnoNadmetanjeVOAPIController.GetJavnoNadmetanje(System.Int32)">
+            <summary>
+            Vraća javno nadmetanje po zadatoj vrednosti id-a
+            </summary>
+            <param name="JavnoNadmetanjeID"></param>
+            <returns>Objekat javnog nadmetanja</returns>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.JavnoNadmetanjeVOAPIController.CreateJavnoNadmetanje(UgovorOZakupu.Models.JavnoNadmetanjeVO)">
+            <summary>
+            Kreira novo javno nadmetanje
+            </summary>
+            <param name="javnoNadmetanjeVO"></param>
+            <returns>Potvrdu o kreiranom javnom nadmetanju</returns>
+            <response code="204">Javno nadmetanje uspesno kreirano</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjen</response>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.JavnoNadmetanjeVOAPIController.DeleteJavnoNadmetanje(System.Int32)">
+            <summary>
+            Briše javno nadmetanje po zadatoj vrednosti id-a
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.JavnoNadmetanjeVOAPIController.UpdateJavnoNadmetanje(System.Int32,UgovorOZakupu.Models.DTOs.JavnoNadmetanjeVOdto)">
+            <summary>
+            Menja vrednosti postojećeg javnog nadmetanja
+            </summary>
+            <param name="updatedJavnoNadmetanje"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="T:UgovorOZakupu.Controllers.KupacVOAPIController">
+            <summary>
+            Predstavlja kontroler kupca
+            </summary>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.KupacVOAPIController.GetKupci">
+            <summary>
+            Vraća sve kupce 
+            </summary>
+            <returns>Listu kupaca</returns>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.KupacVOAPIController.GetKupac(System.Int32)">
+            <summary>
+            Vraća kupca po zadatoj vrednosti id-a
+            </summary>
+            <param name="KupacID"></param>
+            <returns>Objekat kupca</returns>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.KupacVOAPIController.CreateKupac(UgovorOZakupu.Models.DTOs.KupacVOdtos)">
+            <summary>
+            Kreira novog kupca
+            </summary>
+            <param name="kupacDTO"></param>
+            <returns>Potvrdu o kreiranom kupcu</returns>
+            <response code="204">Kupac uspesno kreiran</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjen </response>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.KupacVOAPIController.DeleteKupac(System.Int32)">
+            <summary>
+            Briše kupca po zadatoj vrednosti id-a
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.KupacVOAPIController.UpdateKupac(System.Int32,UgovorOZakupu.Models.DTOs.KupacVOdtos)">
+            <summary>
+            Menja vrednosti postojećeg kupca
+            </summary>
+            <param name="updatedKupac"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="T:UgovorOZakupu.Controllers.LicnostVOAPIController">
+            <summary>
+            Predstavlja kontroler licnosti
+            </summary>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.LicnostVOAPIController.GetLicnosti">
+            <summary>
+            Vraća sve licnosti
+            </summary>
+            <returns>Listu licnosti</returns>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.LicnostVOAPIController.GetLicnost(System.Int32)">
+            <summary>
+            Vraća licnost po zadatoj vrednosti id-a
+            </summary>
+            <param name="LicnostID"></param>
+            <returns>Objekat licnosti</returns>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.LicnostVOAPIController.CreateLicnots(UgovorOZakupu.Models.DTOs.LicnostVOdto)">
+            <summary>
+            Kreira novu licnost
+            </summary>
+            <param name="licnostDTO"></param>
+            <returns>Potvrdu o kreiranoj licnosti</returns>
+            <response code="204">Predsednik uspesno obrisan</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjen predsednik za brisanje</response>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.LicnostVOAPIController.DeleteLicnost(System.Int32)">
+            <summary>
+            Briše licnost po zadatoj vrednosti id-a
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.LicnostVOAPIController.UpdateLicnost(System.Int32,UgovorOZakupu.Models.DTOs.LicnostVOdto)">
+            <summary>
+            Menja vrednosti postojeće licnosti
+            </summary>
+            <param name="updatedLicnost"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="T:UgovorOZakupu.Controllers.UgovorOZakupuAPIController">
+            <summary>
+            Predstavlja kontroler ugovora o zakupu
+            </summary>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.UgovorOZakupuAPIController.GetUgovori">
+            <summary>
+            Vraća sve ugovore o zakupu 
+            </summary>
+            <returns>Listu ugovora o zakupu</returns>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.UgovorOZakupuAPIController.GetUgovorOZakupu(System.Int32)">
+            <summary>
+            Vraća ugovor o zakupu po zadatoj vrednosti id-a
+            </summary>
+            <param name="UgovorID"></param>
+            <returns>Objekat ugovora o zakupu</returns>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.UgovorOZakupuAPIController.CreateUgovorOZakupu(UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOCreate)">
+            <summary>
+            Kreira novi ugovor
+            </summary>
+            <param name="ugovorDTO"></param>
+            <returns>Potvrdu o kreiranom ugovoru</returns>
+            <response code="204">ugovor uspesno kreiran</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjen </response>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.UgovorOZakupuAPIController.DeleteUgovor(System.Int32)">
+            <summary>
+            Briše ugovor po zadatoj vrednosti id-a
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:UgovorOZakupu.Controllers.UgovorOZakupuAPIController.UpdateUgovor(System.Int32,UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOUpdate)">
+            <summary>
+            Menja vrednosti postojećeg ugovora
+            </summary>
+            <param name="updatedUgovor"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="T:UgovorOZakupu.Models.DTOs.DokumentVOdto">
+            <summary>
+            Predstavlja model dokumenta
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.DokumentVOdto.DokumentID">
+            <summary>
+            Id dokumenta
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.DokumentVOdto.ZavodniBroj">
+            <summary>
+            zavodni broj dokumenta
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.DokumentVOdto.Datum">
+            <summary>
+            datum
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.DokumentVOdto.DatumDonosenjaDokumenta">
+            <summary>
+            datum donosenja dokumenta
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.DokumentVOdto.Sablon">
+            <summary>
+            sablon
+            </summary>
+        </member>
+        <member name="T:UgovorOZakupu.Models.DTOs.JavnoNadmetanjeVOdto">
+            <summary>
+            Predstavlja model javnog nadmetanja
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.JavnoNadmetanjeVOdto.JavnoNadmetanjeID">
+            <summary>
+            Id javnog nadmetanja
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.JavnoNadmetanjeVOdto.VremeKraja">
+            <summary>
+            vreme kraja
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.JavnoNadmetanjeVOdto.Tip">
+            <summary>
+            tip
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.JavnoNadmetanjeVOdto.Izuzeto">
+            <summary>
+            izuzeto
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.JavnoNadmetanjeVOdto.IzlicitiranaCena">
+            <summary>
+            izlicitirana cena javnog nadmetanja
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.JavnoNadmetanjeVOdto.BrojUcesnika">
+            <summary>
+            broj ucesnika u javnom nadmetanju
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.JavnoNadmetanjeVOdto.VisinaDopuneDepozita">
+            <summary>
+            visina dopune depozita
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.JavnoNadmetanjeVOdto.Status">
+            <summary>
+            status
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.KupacVOdtos.KupacID">
+            <summary>
+            Id kupca
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.KupacVOdtos.Prioritet">
+            <summary>
+            prioritet
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.KupacVOdtos.Lice">
+            <summary>
+            lice
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.KupacVOdtos.OstvarenaPovrsina">
+            <summary>
+            ostvarena povrsina
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.KupacVOdtos.ImaZabranu">
+            <summary>
+             ima zabranu
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.KupacVOdtos.DatumPocetkaZabrane">
+            <summary>
+            datum pocetka zabrane
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.KupacVOdtos.DuzinaTrajanjaZabraneUGodinama">
+            <summary>
+            duzina trajanje zabrane u godinama
+            </summary>
+        </member>
+        <member name="T:UgovorOZakupu.Models.DTOs.LicnostVOdto">
+            <summary>
+            Predstavlja model licnosti
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.LicnostVOdto.LicnostID">
+            <summary>
+            Id licnosti
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.LicnostVOdto.Ime">
+            <summary>
+            Ime licnosti
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.LicnostVOdto.Prezime">
+            <summary>
+            prezime licnosti
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.LicnostVOdto.Funkcija">
+            <summary>
+            funkcije licnosti
+            </summary>
+        </member>
+        <member name="T:UgovorOZakupu.Models.DTOs.UgovorOZakupudto">
+            <summary>
+            Predstavlja model ugovora o zakupu
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupudto.Odluka">
+            <summary>
+            odluka
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupudto.TipGarancije">
+            <summary>
+            tip garancije
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupudto.Lice">
+            <summary>
+            lice
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupudto.RokoviDospeca">
+            <summary>
+            rokovi dospeca
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupudto.ZavodniBroj">
+            <summary>
+            zavodni broj
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupudto.DatumZavodjenja">
+            <summary>
+            datum zavodjenja
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupudto.Ministar">
+            <summary>
+            ministar
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupudto.RokZaVracanjeZemljista">
+            <summary>
+            rok za vracanje zemljista
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupudto.MestoPotpisivanja">
+            <summary>
+            mesto potpisivanja
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupudto.DatumPotpisa">
+            <summary>
+            datum potpisivanja
+            </summary>
+        </member>
+        <member name="T:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOCreate">
+            <summary>
+            Predstavlja model ugovora o zakupu za kreiranje
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOCreate.Odluka">
+            <summary>
+            odluka
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOCreate.TipGarancije">
+            <summary>
+            tip garancije
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOCreate.Lice">
+            <summary>
+            lice
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOCreate.RokoviDospeca">
+            <summary>
+            rokovi dospeca
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOCreate.ZavodniBroj">
+            <summary>
+            zavodni broj
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOCreate.DatumZavodjenja">
+            <summary>
+            datum zavodjenja
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOCreate.Ministar">
+            <summary>
+            ministar
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOCreate.RokZaVracanjeZemljista">
+            <summary>
+            rok za vracanje zemljista
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOCreate.MestoPotpisivanja">
+            <summary>
+            mesto potpisivanja
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOCreate.DatumPotpisa">
+            <summary>
+            datum potpisivanja
+            </summary>
+        </member>
+        <member name="T:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOUpdate">
+            <summary>
+            Predstavlja model ugovora o zakupu za update objekta
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOUpdate.Odluka">
+            <summary>
+            odluka
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOUpdate.TipGarancije">
+            <summary>
+            tip garancije
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOUpdate.Lice">
+            <summary>
+            lice
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOUpdate.RokoviDospeca">
+            <summary>
+            rokovi dospeca
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOUpdate.ZavodniBroj">
+            <summary>
+            zavodni broj
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOUpdate.DatumZavodjenja">
+            <summary>
+            datum zavodjenja
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOUpdate.Ministar">
+            <summary>
+            ministar
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOUpdate.RokZaVracanjeZemljista">
+            <summary>
+            rok za vracanje zemljista
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOUpdate.MestoPotpisivanja">
+            <summary>
+            mesto potpisivanja
+            </summary>
+        </member>
+        <member name="P:UgovorOZakupu.Models.DTOs.UgovorOZakupuDTOUpdate.DatumPotpisa">
+            <summary>
+            datum potpisivanja
+            </summary>
+        </member>
+    </members>
+</doc>

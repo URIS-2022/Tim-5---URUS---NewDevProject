@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\KatastarskaOpstina_MikroservisiProjekat.props" />
+</Project>

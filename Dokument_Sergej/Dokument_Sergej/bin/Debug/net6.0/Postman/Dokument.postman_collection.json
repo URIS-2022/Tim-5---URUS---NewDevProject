@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "2585cfd8-de54-4dbf-9a57-27a1909e6bf8",
+		"name": "Dokument",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25924648"
+	},
+	"item": [
+		{
+			"name": "GetAllDokument",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7195/api/DokumentAPI",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7195",
+					"path": [
+						"api",
+						"DokumentAPI"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetDokumentById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7195/api/DokumentAPI/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7195",
+					"path": [
+						"api",
+						"DokumentAPI",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostDokument",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"zavodniBroj\": 1,\r\n        \"datum\": \"2022-01-01T00:00:00\",\r\n        \"datumDonosenjaOdluke\": \"2023-01-01T00:00:00\",\r\n        \"sablon\": \"sablon\",\r\n        \"korisnikID\": 2,\r\n        \"licnostID\": 2\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7195/api/DokumentAPI",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7195",
+					"path": [
+						"api",
+						"DokumentAPI"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutDokument",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"dokumentID\": 5,\r\n        \"zavodniBroj\": 5,\r\n        \"datum\": \"2022-01-01T00:00:00\",\r\n        \"datumDonosenjaOdluke\": \"2023-01-01T00:00:00\",\r\n        \"sablon\": \"sablon\",\r\n        \"korisnikID\": 2,\r\n        \"licnostID\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7195/api/DokumentAPI/5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7195",
+					"path": [
+						"api",
+						"DokumentAPI",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteDokument",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7195/api/DokumentAPI/5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7195",
+					"path": [
+						"api",
+						"DokumentAPI",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

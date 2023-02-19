@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "7f046083-1e27-4114-9b0d-1bd443e6b41d",
+		"name": "ParcelaDRUGI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25920710"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7087/api/ParcelaAPIController",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7087",
+					"path": [
+						"api",
+						"ParcelaAPIController"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7087/api/ParcelaAPIController/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7087",
+					"path": [
+						"api",
+						"ParcelaAPIController",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"parcelaId\": 0,\r\n  \"povrsina\": \"string\",\r\n  \"korisnikParcele\": \"string\",\r\n  \"brojParcele\": 0,\r\n  \"brojListaNepokretnosti\": 0,\r\n  \"kultura\": \"string\",\r\n  \"klasa\": \"string\",\r\n  \"obradivost\": \"string\",\r\n  \"zasticenaZona\": \"string\",\r\n  \"oblikSvojine\": \"string\",\r\n  \"odvodnjavanje\": \"string\",\r\n  \"kulturaStvarsnoStanje\": \"string\",\r\n  \"klasaStvarnoStanje\": \"string\",\r\n  \"obradivostStvarnoStanje\": \"string\",\r\n  \"zasticenaZonaStvarnoStanje\": \"string\",\r\n  \"odvodnjavanjeStvarnoStanje\": \"string\",\r\n  \"katastarskaOpstinaId\": 2,\r\n  \"deoParceleId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7087/api/ParcelaAPIController",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7087",
+					"path": [
+						"api",
+						"ParcelaAPIController"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"parcelaId\": 2,\r\n  \"povrsina\": \"string\",\r\n  \"korisnikParcele\": \"string\",\r\n  \"brojParcele\": 0,\r\n  \"brojListaNepokretnosti\": 0,\r\n  \"kultura\": \"string\",\r\n  \"klasa\": \"string\",\r\n  \"obradivost\": \"string\",\r\n  \"zasticenaZona\": \"string\",\r\n  \"oblikSvojine\": \"string\",\r\n  \"odvodnjavanje\": \"string\",\r\n  \"kulturaStvarsnoStanje\": \"string\",\r\n  \"klasaStvarnoStanje\": \"string\",\r\n  \"obradivostStvarnoStanje\": \"string\",\r\n  \"zasticenaZonaStvarnoStanje\": \"string\",\r\n  \"odvodnjavanjeStvarnoStanje\": \"string\",\r\n  \"katastarskaOpstinaId\": 2,\r\n  \"deoParceleId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7087/api/ParcelaAPIController/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7087",
+					"path": [
+						"api",
+						"ParcelaAPIController",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7087/api/ParcelaAPIController/1006",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7087",
+					"path": [
+						"api",
+						"ParcelaAPIController",
+						"1006"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

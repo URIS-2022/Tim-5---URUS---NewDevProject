@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KatastarskaOpstina_MikroservisiProjekat</name>
+    </assembly>
+    <members>
+        <member name="T:KatastarskaOpstina_MikroservisiProjekat.Controllers.KatastarskaOpstinaAPIController">
+            <summary>
+            Predstavlja kontroler katastarske opstine
+            </summary>
+        </member>
+        <member name="M:KatastarskaOpstina_MikroservisiProjekat.Controllers.KatastarskaOpstinaAPIController.getAllKatastarskaOpstina">
+            <summary>
+            Vraća sve katastarske opstine 
+            </summary>
+            <returns>Listu katastarskih opstina</returns>
+        </member>
+        <member name="M:KatastarskaOpstina_MikroservisiProjekat.Controllers.KatastarskaOpstinaAPIController.getKatastarskaOpstinaByID(System.Int32)">
+            <summary>
+            Vraća katastarsku opstinu po zadatoj vrednosti id-a
+            </summary>
+            <param name="katastarskaOpstina"></param>
+            <returns>Objekat katastarske opstine</returns>
+        </member>
+        <member name="M:KatastarskaOpstina_MikroservisiProjekat.Controllers.KatastarskaOpstinaAPIController.postKatastarskaOpstina(KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.KatastarskaOpstinaDto)">
+            <summary>
+            Kreira novu katastarsku opstinu
+            </summary>
+            <param name="katastarskaOpstinaDto"></param>
+            <returns>Potvrdu o kreiranoj katastarskoj opstini</returns>
+            <response code="204">Predsednik uspesno kreiran</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjena katastarska opstina</response>
+        </member>
+        <member name="M:KatastarskaOpstina_MikroservisiProjekat.Controllers.KatastarskaOpstinaAPIController.deleteKatastarskaOpstina(System.Int32)">
+            <summary>
+            Briše katastarsku opstinu po zadatoj vrednosti id-a
+            </summary>
+            <param name="katastarskaOpstina"></param>
+        </member>
+        <member name="M:KatastarskaOpstina_MikroservisiProjekat.Controllers.KatastarskaOpstinaAPIController.updateKatastarskaOpstina(System.Int32,KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.KatastarskaOpstinaDto)">
+            <summary>
+            Menja vrednosti postojeće katastarske opstine
+            </summary>
+            <param name="updatedKatastarskaOpstina"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="T:KatastarskaOpstina_MikroservisiProjekat.Controllers.StatutOpstineAPIController">
+            <summary>
+            Predstavlja kontroler statuta opstine
+            </summary>
+        </member>
+        <member name="M:KatastarskaOpstina_MikroservisiProjekat.Controllers.StatutOpstineAPIController.getAllStatutOpstine">
+            <summary>
+            Vraća sve statute opstine 
+            </summary>
+            <returns>Listu statuta opstine</returns>
+        </member>
+        <member name="M:KatastarskaOpstina_MikroservisiProjekat.Controllers.StatutOpstineAPIController.getStatutOpstineByID(System.Int32)">
+            <summary>
+            Vraća statut opstine po zadatoj vrednosti id-a
+            </summary>
+            <param name="statutOpstine"></param>
+            <returns>Objekat statuta opstine</returns>
+        </member>
+        <member name="M:KatastarskaOpstina_MikroservisiProjekat.Controllers.StatutOpstineAPIController.postStatutOpstine(KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDtoCreate)">
+            <summary>
+            Kreira novi statut opstine
+            </summary>
+            <param name="statutOpstineDto"></param>
+            <returns>Potvrdu o kreiranom statutu opstine</returns>
+            <response code="204">Statut opstine uspesno kreiran</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjen statut opstine za brisanje</response>
+        </member>
+        <member name="M:KatastarskaOpstina_MikroservisiProjekat.Controllers.StatutOpstineAPIController.deleteStatutOpstine(System.Int32)">
+            <summary>
+            Briše statut opstine po zadatoj vrednosti id-a
+            </summary>
+            <param name="OglasId"></param>
+        </member>
+        <member name="M:KatastarskaOpstina_MikroservisiProjekat.Controllers.StatutOpstineAPIController.updateStatutOpstine(System.Int32,KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDtoUpdate)">
+            <summary>
+            Menja vrednosti postojećeg statuta opstine
+            </summary>
+            <param name="updatedStatutOpstine"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="T:KatastarskaOpstina_MikroservisiProjekat.Migrations.mig1">
+            <inheritdoc />
+        </member>
+        <member name="M:KatastarskaOpstina_MikroservisiProjekat.Migrations.mig1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:KatastarskaOpstina_MikroservisiProjekat.Migrations.mig1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:KatastarskaOpstina_MikroservisiProjekat.Migrations.mig1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.KatastarskaOpstinaDto">
+            <summary>
+            Predstavlja model katastarske opstine 
+            </summary>
+        </member>
+        <member name="P:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.KatastarskaOpstinaDto.katastarskaOpstinaId">
+            <summary>
+            Id katastarske opstine
+            </summary>
+        </member>
+        <member name="P:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.KatastarskaOpstinaDto.katastarskaOpstinaNaziv">
+            <summary>
+            Naziv katastarske opstine
+            </summary>
+        </member>
+        <member name="T:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDto">
+            <summary>
+            Predstavlja model statuta opstine
+            </summary>
+        </member>
+        <member name="P:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDto.clan">
+            <summary>
+            Clan statuta opstine
+            </summary>
+        </member>
+        <member name="P:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDto.stav">
+            <summary>
+            Stav statuta opstine
+            </summary>
+        </member>
+        <member name="P:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDto.tacka">
+            <summary>
+            Tacka statuta opstine
+            </summary>
+        </member>
+        <member name="P:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDto.katastarskaOpstinaID">
+            <summary>
+            Id katastarske opstine (FK)
+            </summary>
+        </member>
+        <member name="T:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDtoCreate">
+            <summary>
+            Predstavlja model statuta opstine za kreiranje
+            </summary>
+        </member>
+        <member name="P:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDtoCreate.clan">
+            <summary>
+            Clan statuta opstine
+            </summary>
+        </member>
+        <member name="P:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDtoCreate.stav">
+            <summary>
+            Stav statuta opstine
+            </summary>
+        </member>
+        <member name="P:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDtoCreate.tacka">
+            <summary>
+            Tacka statuta opstine
+            </summary>
+        </member>
+        <member name="P:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDtoCreate.katastarskaOpstinaID">
+            <summary>
+            Id katastarske opstine (FK)
+            </summary>
+        </member>
+        <member name="T:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDtoUpdate">
+            <summary>
+            Predstavlja model statuta opstine za update
+            </summary>
+        </member>
+        <member name="P:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDtoUpdate.clan">
+            <summary>
+            Clan statuta opstine
+            </summary>
+        </member>
+        <member name="P:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDtoUpdate.stav">
+            <summary>
+            Stav statuta opstine
+            </summary>
+        </member>
+        <member name="P:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDtoUpdate.tacka">
+            <summary>
+            Tacka statuta opstine
+            </summary>
+        </member>
+        <member name="P:KatastarskaOpstina_MikroservisiProjekat.Models.ModelsDto.StatutOpstineDtoUpdate.katastarskaOpstinaID">
+            <summary>
+            Id katastarske opstine (FK)
+            </summary>
+        </member>
+    </members>
+</doc>

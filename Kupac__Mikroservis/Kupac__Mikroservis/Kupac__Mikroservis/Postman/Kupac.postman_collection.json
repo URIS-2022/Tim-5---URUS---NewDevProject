@@ -1,0 +1,493 @@
+{
+	"info": {
+		"_postman_id": "01a8eb0b-80bd-42ff-9000-02d3c2ad83fc",
+		"name": "Kupac",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAdresa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7099/api/AdresaVO",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"AdresaVO"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetKupac",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7099/api/Kupac",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"Kupac"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOvlascenoLice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7099/api/OvlascenoLice",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"OvlascenoLice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUplata",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7099/api/Uplata",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"Uplata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetByIDAdresa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7099/api/AdresaVO/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"AdresaVO",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetByIDKupac",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7099/api/Kupac/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"Kupac",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetByIDOvlascenoLice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7099/api/OvlascenoLice/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"OvlascenoLice",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetByIDUplata",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7099/api/Uplata/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"Uplata",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostAdresa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"adresaID\": 0,\r\n  \"ulica\": \"string\",\r\n  \"broj\": \"string\",\r\n  \"mesto\": \"string\",\r\n  \"postanskiBroj\": \"string\",\r\n  \"drzava\": \"SRB\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7099/api/AdresaVO",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"AdresaVO"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostKupac",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"kupacID\": 0,\r\n  \"prioritet\": \"prioritetetete\",\r\n  \"lice\": \"string\",\r\n  \"ostvarenaPovrsina\": 0,\r\n  \"imaZabranu\": true,\r\n  \"datumPocetkaZabrane\": \"2023-02-17T21:47:09.291Z\",\r\n  \"duzinaTrajanjaZabraneUGodinama\": 0,\r\n  \"datumPrestankaZabrane\": \"2023-02-17T21:47:09.291Z\",\r\n  \"ovlascenoLiceID\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7099/api/Kupac",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"Kupac"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostOvlascenoLice",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"ovlascenoLiceID\": 0,\r\n  \"ime\": \"ema\",\r\n  \"prezime\": \"string\",\r\n  \"jmbG_BrojPasosa\": \"string\",\r\n  \"drazava\": \"string\",\r\n  \"brojTabele\": 0,\r\n  \"adresaID\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7099/api/OvlascenoLice",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"OvlascenoLice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostUplata",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"uplataID\": 0,\r\n  \"brojRacuna\": \"0000111\",\r\n  \"pozivNaBroj\": \"string\",\r\n  \"iznos\": 0,\r\n  \"uplatilac\": \"string\",\r\n  \"svrhaUplate\": \"string\",\r\n  \"datum\": \"2023-02-17T21:48:46.180Z\",\r\n  \"kupacID\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7099/api/Uplata",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"Uplata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutAdresa",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"adresaID\": 2002,\r\n  \"ulica\": \"string\",\r\n  \"broj\": \"string\",\r\n  \"mesto\": \"string\",\r\n  \"postanskiBroj\": \"string\",\r\n  \"drzava\": \"srbija\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7099/api/AdresaVO/2002",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"AdresaVO",
+						"2002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutKupac",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"kupacID\": 2002,\r\n  \"prioritet\": \"pr\",\r\n  \"lice\": \"string\",\r\n  \"ostvarenaPovrsina\": 0,\r\n  \"imaZabranu\": true,\r\n  \"datumPocetkaZabrane\": \"2023-02-17T21:54:13.692Z\",\r\n  \"duzinaTrajanjaZabraneUGodinama\": 0,\r\n  \"datumPrestankaZabrane\": \"2023-02-17T21:54:13.692Z\",\r\n  \"ovlascenoLiceID\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7099/api/Kupac/2002",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"Kupac",
+						"2002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutOvlascenoLice",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \"ovlascenoLiceID\": 2002,\r\n  \"ime\": \"emilija\",\r\n  \"prezime\": \"string\",\r\n  \"jmbG_BrojPasosa\": \"string\",\r\n  \"drazava\": \"string\",\r\n  \"brojTabele\": 0,\r\n  \"adresaID\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7099/api/OvlascenoLice/2002",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"OvlascenoLice",
+						"2002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutUplata",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"uplataID\": 2002,\r\n  \"brojRacuna\": \"string\",\r\n  \"pozivNaBroj\": \"string\",\r\n  \"iznos\": 0,\r\n  \"uplatilac\": \"javcfa\",\r\n  \"svrhaUplate\": \"string\",\r\n  \"datum\": \"2023-02-17T21:48:46.180Z\",\r\n  \"kupacID\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7099/api/Uplata/2002",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"Uplata",
+						"2002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteAdresa",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7099/api/AdresaVO/2002",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"AdresaVO",
+						"2002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteKupac",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7099/api/Kupac/2002",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"Kupac",
+						"2002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteOvlascenoLice",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7099/api/OvlascenoLice/2002",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"OvlascenoLice",
+						"2002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUplata",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7099/api/Uplata/2002",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7099",
+					"path": [
+						"api",
+						"Uplata",
+						"2002"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

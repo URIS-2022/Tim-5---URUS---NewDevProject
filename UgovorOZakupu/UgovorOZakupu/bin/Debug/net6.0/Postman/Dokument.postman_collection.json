@@ -1,0 +1,131 @@
+ {
+	"info": {
+		"_postman_id": "b040f4d0-675b-4552-ba75-d4472f5d44ff",
+		"name": "Dokument",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25920706"
+	},
+	"item": [
+		{
+			"name": "GetAllDokument",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7004/api/DokumentAPIController",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"DokumentAPIController"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetDokumentByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7004/api/DokumentAPIController/17",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"DokumentAPIController",
+						"17"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostDokument",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"zavodniBroj\": \"provera postmana\",\r\n        \"datum\": \"2009-11-27T00:00:00\",\r\n        \"datumDonosenjaDokumenta\": \"2011-11-27T00:00:00\",\r\n        \"sablon\": \"neki sablonnnnn\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7004/api/DokumentAPIController",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"DokumentAPIController"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutDokument",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"dokumentID\": 22,\r\n        \"zavodniBroj\": \"provera postmana put\",\r\n        \"datum\": \"2009-11-27T00:00:00\",\r\n        \"datumDonosenjaDokumenta\": \"2011-11-27T00:00:00\",\r\n        \"sablon\": \"neki sablonnnnn\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7004/api/DokumentAPIController/22",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"DokumentAPIController",
+						"22"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteD",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7004/api/DokumentAPIController/22",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7004",
+					"path": [
+						"api",
+						"DokumentAPIController",
+						"22"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

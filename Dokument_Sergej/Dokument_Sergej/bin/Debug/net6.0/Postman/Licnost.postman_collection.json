@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "5cf4c0fc-deb2-49e9-b5ec-6345aabc863f",
+		"name": "Licnost",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25924648"
+	},
+	"item": [
+		{
+			"name": "GetAllLicnost",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7195/api/LicnostAPI",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7195",
+					"path": [
+						"api",
+						"LicnostAPI"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetLicnostByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7195/api/LicnostAPI/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7195",
+					"path": [
+						"api",
+						"LicnostAPI",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostLicnost",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \r\n        \"ime\": \"Dejan\",\r\n        \"prezime\": \"Stankovic\",\r\n        \"funkcija\": \"moler\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7195/api/LicnostAPI",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7195",
+					"path": [
+						"api",
+						"LicnostAPI"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutLicnost",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "     {\r\n        \"licnostID\": 2,\r\n        \"ime\": \"Sergej\",\r\n        \"prezime\": \"Bojanic\",\r\n        \"funkcija\": \"kafer kuvarica\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7195/api/LicnostAPI/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7195",
+					"path": [
+						"api",
+						"LicnostAPI",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteLicnost",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7195/api/LicnostAPI/5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7195",
+					"path": [
+						"api",
+						"LicnostAPI",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

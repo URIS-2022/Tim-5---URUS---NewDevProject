@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Licitacija_Project</name>
+    </assembly>
+    <members>
+        <member name="T:Licitacija_Project.Migrations.mig1">
+            <inheritdoc />
+        </member>
+        <member name="M:Licitacija_Project.Migrations.mig1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Licitacija_Project.Migrations.mig1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Licitacija_Project.Migrations.mig1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

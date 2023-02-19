@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Parcela_MikroservisiProjekat</name>
+    </assembly>
+    <members>
+        <member name="T:Parcela_MikroservisiProjekat.Controllers.DeoParceleAPIController">
+            <summary>
+            Predstavlja kontroler dela parcele
+            </summary>
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Controllers.DeoParceleAPIController.getAllDeoParcele">
+            <summary>
+            Vraća sve delove parcele 
+            </summary>
+            <returns>Listu delova parcele</returns>
+            
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Controllers.DeoParceleAPIController.getDeoParceleByID(System.Int32)">
+            <summary>
+            Vraća deo parcele po zadatoj vrednosti id-a
+            </summary>
+            <param name="deoParcele"></param>
+            <returns>Objekat dela parcele</returns>
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Controllers.DeoParceleAPIController.postDeoParcele(Parcela_MikroservisiProjekat.Models.ModelsDto.DeoParceleDto)">
+            <summary>
+            Kreira novi deo parcele
+            </summary>
+            <param name="deoParceleDto"></param>
+            <returns>Potvrdu o kreiranom delu parcele</returns>
+            <response code="204">Deo parcele uspesno kreiran</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjen deo parcele</response>
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Controllers.DeoParceleAPIController.deleteDeoParcele(System.Int32)">
+            <summary>
+            Briše deo parcele po zadatoj vrednosti id-a
+            </summary>
+            <param name="deoparc"></param>
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Controllers.DeoParceleAPIController.updateDeoParcele(System.Int32,Parcela_MikroservisiProjekat.Models.ModelsDto.DeoParceleDto)">
+            <summary>
+            Menja vrednosti postojećeg dela parcele
+            </summary>
+            <param name="updatedDeoParcele"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="T:Parcela_MikroservisiProjekat.Controllers.KatastarskaOpstinaVOAPIController">
+            <summary>
+            Predstavlja kontroler katastarske opstine 
+            </summary>
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Controllers.KatastarskaOpstinaVOAPIController.getAllKatastarskaOpstinaVO">
+            <summary>
+            Vraća sve katastarske opstine 
+            </summary>
+            <returns>Listu katastarskih opstina</returns>
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Controllers.KatastarskaOpstinaVOAPIController.getKatastarskaOpstinaVOByID(System.Int32)">
+            <summary>
+            Vraća katastarsku opstinu po zadatoj vrednosti id-a
+            </summary>
+            <param name="katastarskaOpstinaVO"></param>
+            <returns>Objekat katastarske opstine</returns>
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Controllers.KatastarskaOpstinaVOAPIController.postKatastarskaOpstinaVO(Parcela_MikroservisiProjekat.Models.ModelsDto.KatastarskaOpstinaVODto)">
+            <summary>
+            Kreira novu katastarsku opstinu
+            </summary>
+            <param name="katastarskaOpstinaVODto"></param>
+            <returns>Potvrdu o kreiranom oglasu</returns>
+            <response code="204">katastarska opstina uspesno kreirana</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjena katastarska opstina</response>
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Controllers.KatastarskaOpstinaVOAPIController.deleteKatastarskaOpstinaVO(System.Int32)">
+            <summary>
+            Briše katastarsku opstinu po zadatoj vrednosti id-a
+            </summary>
+            <param name="katOpstinaVO"></param>
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Controllers.KatastarskaOpstinaVOAPIController.updateKatastarskaOpstinaVO(System.Int32,Parcela_MikroservisiProjekat.Models.ModelsDto.KatastarskaOpstinaVODto)">
+            <summary>
+            Menja vrednosti postojeće katastarske opstine
+            </summary>
+            <param name="updatedKatastarskaOpstinaVO"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="T:Parcela_MikroservisiProjekat.Controllers.ParcelaAPIController">
+            <summary>
+            Predstavlja kontroler parcele
+            </summary>
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Controllers.ParcelaAPIController.getAllParcela">
+            <summary>
+            Vraća sve parcele 
+            </summary>
+            <returns>Listu oglasa</returns>
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Controllers.ParcelaAPIController.getParcelaByID(System.Int32)">
+            <summary>
+            Vraća parcelu po zadatoj vrednosti id-a
+            </summary>
+            <param name="parcela"></param>
+            <returns>Objekat parcele</returns>
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Controllers.ParcelaAPIController.postParcela(Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate)">
+            <summary>
+            Kreira novu parcelu
+            </summary>
+            <param name="parcelaDto"></param>
+            <returns>Potvrdu o kreiranoj parceli</returns>
+            <response code="204">Parcela uspesno kreirana</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjena parcela</response>
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Controllers.ParcelaAPIController.deleteParcela(System.Int32)">
+            <summary>
+            Briše parcelu po zadatoj vrednosti id-a
+            </summary>
+            <param name="parcela"></param>
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Controllers.ParcelaAPIController.updateParcela(System.Int32,Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate)">
+            <summary>
+            Menja vrednosti postojeće parcele
+            </summary>
+            <param name="updatedParcela"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="T:Parcela_MikroservisiProjekat.Migrations.mig1">
+            <inheritdoc />
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Migrations.mig1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Migrations.mig1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Parcela_MikroservisiProjekat.Migrations.mig1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Parcela_MikroservisiProjekat.Models.ModelsDto.DeoParceleDto">
+            <summary>
+            Predstavlja model dela parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.DeoParceleDto.deoParceleId">
+            <summary>
+            Id dela parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.DeoParceleDto.povrsina">
+            <summary>
+            Povrsina dela parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.DeoParceleDto.redniBroj">
+            <summary>
+            Redi broj dela parcele
+            </summary>
+        </member>
+        <member name="T:Parcela_MikroservisiProjekat.Models.ModelsDto.KatastarskaOpstinaVODto">
+            <summary>
+            Predstavlja model katastarske opstine
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.KatastarskaOpstinaVODto.katastarskaOpstinaId">
+            <summary>
+            Id katastarske opstine
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.KatastarskaOpstinaVODto.katastarskaOpstinaNaziv">
+            <summary>
+            Naziv katastarske opstine
+            </summary>
+        </member>
+        <member name="T:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto">
+            <summary>
+            Predstavlja model parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.parcelaId">
+            <summary>
+            Id parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.povrsina">
+            <summary>
+            Povrsine parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.korisnikParcele">
+            <summary>
+            Korisnik parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.brojParcele">
+            <summary>
+            Broj parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.brojListaNepokretnosti">
+            <summary>
+            Broj lista nepokretnosti parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.kultura">
+            <summary>
+            Kultura parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.klasa">
+            <summary>
+            Klasa parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.obradivost">
+            <summary>
+            Obradivost parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.zasticenaZona">
+            <summary>
+            Zasticena zona parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.oblikSvojine">
+            <summary>
+            oblik svojine parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.odvodnjavanje">
+            <summary>
+            Odvodnjavanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.kulturaStvarsnoStanje">
+            <summary>
+            Kultura stvarno stanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.klasaStvarnoStanje">
+            <summary>
+            Klasa stvarno stanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.obradivostStvarnoStanje">
+            <summary>
+            Obradivost stvarno stanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.zasticenaZonaStvarnoStanje">
+            <summary>
+            Zasticena zona stvarno stanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.odvodnjavanjeStvarnoStanje">
+            <summary>
+            Odvodnjavanje stvarno stanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.katastarskaOpstinaId">
+            <summary>
+            Id katastarke opstine (FK)
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDto.deoParceleId">
+            <summary>
+            Id deo parcele (FK)
+            </summary>
+        </member>
+        <member name="T:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate">
+            <summary>
+            Predstavlja model za kreiranje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.parcelaId">
+            <summary>
+            Id parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.povrsina">
+            <summary>
+            Povrsine parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.korisnikParcele">
+            <summary>
+            Korisnik parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.brojParcele">
+            <summary>
+            Broj parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.brojListaNepokretnosti">
+            <summary>
+            Broj lista nepokretnosti parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.kultura">
+            <summary>
+            Kultura parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.klasa">
+            <summary>
+            Klasa parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.obradivost">
+            <summary>
+            Obradivost parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.zasticenaZona">
+            <summary>
+            Zasticena zona parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.oblikSvojine">
+            <summary>
+            oblik svojine parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.odvodnjavanje">
+            <summary>
+            Odvodnjavanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.kulturaStvarsnoStanje">
+            <summary>
+            Kultura stvarno stanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.klasaStvarnoStanje">
+            <summary>
+            Klasa stvarno stanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.obradivostStvarnoStanje">
+            <summary>
+            Obradivost stvarno stanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.zasticenaZonaStvarnoStanje">
+            <summary>
+            Zasticena zona stvarno stanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.odvodnjavanjeStvarnoStanje">
+            <summary>
+            Odvodnjavanje stvarno stanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.katastarskaOpstinaId">
+            <summary>
+            Id katastarke opstine (FK)
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoCreate.deoParceleId">
+            <summary>
+            Id deo parcele (FK)
+            </summary>
+        </member>
+        <member name="T:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate">
+            <summary>
+            Predstavlja model za update parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.parcelaId">
+            <summary>
+            Id parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.povrsina">
+            <summary>
+            Povrsine parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.korisnikParcele">
+            <summary>
+            Korisnik parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.brojParcele">
+            <summary>
+            Broj parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.brojListaNepokretnosti">
+            <summary>
+            Broj lista nepokretnosti parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.kultura">
+            <summary>
+            Kultura parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.klasa">
+            <summary>
+            Klasa parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.obradivost">
+            <summary>
+            Obradivost parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.zasticenaZona">
+            <summary>
+            Zasticena zona parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.oblikSvojine">
+            <summary>
+            oblik svojine parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.odvodnjavanje">
+            <summary>
+            Odvodnjavanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.kulturaStvarsnoStanje">
+            <summary>
+            Kultura stvarno stanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.klasaStvarnoStanje">
+            <summary>
+            Klasa stvarno stanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.obradivostStvarnoStanje">
+            <summary>
+            Obradivost stvarno stanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.zasticenaZonaStvarnoStanje">
+            <summary>
+            Zasticena zona stvarno stanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.odvodnjavanjeStvarnoStanje">
+            <summary>
+            Odvodnjavanje stvarno stanje parcele
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.katastarskaOpstinaId">
+            <summary>
+            Id katastarke opstine (FK)
+            </summary>
+        </member>
+        <member name="P:Parcela_MikroservisiProjekat.Models.ModelsDto.ParcelaDtoUpdate.deoParceleId">
+            <summary>
+            Id deo parcele (FK)
+            </summary>
+        </member>
+    </members>
+</doc>

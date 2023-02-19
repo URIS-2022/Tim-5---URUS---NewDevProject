@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Licitacija_Project.props" />
+</Project>

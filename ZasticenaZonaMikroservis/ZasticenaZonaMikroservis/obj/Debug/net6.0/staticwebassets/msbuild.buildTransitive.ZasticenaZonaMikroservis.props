@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ZasticenaZonaMikroservis.props" />
+</Project>

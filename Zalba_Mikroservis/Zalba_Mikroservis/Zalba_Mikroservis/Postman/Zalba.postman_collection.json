@@ -1,0 +1,251 @@
+{
+	"info": {
+		"_postman_id": "b52150a4-c8aa-418e-b28a-681d1a0534ef",
+		"name": "Zalba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetKupac",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7270/api/KupacVO",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7270",
+					"path": [
+						"api",
+						"KupacVO"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetByIDKupac",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7270/api/KupacVO/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7270",
+					"path": [
+						"api",
+						"KupacVO",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetZalba",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7270/api/Zalba",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7270",
+					"path": [
+						"api",
+						"Zalba"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetByIDZalba",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7270/api/Zalba/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7270",
+					"path": [
+						"api",
+						"Zalba",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostKupac",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"kupacID\": 0,\r\n  \"prioritet\": \"string\",\r\n  \"lice\": \"string\",\r\n  \"ostvarenaPovrsina\": 0,\r\n  \"imaZabranu\": true,\r\n  \"datumPocetkaZabrane\": \"2023-02-17T21:23:53.785Z\",\r\n  \"duzinaTrajanjaZabraneUGodinama\": 0,\r\n  \"datumPrestankaZabrane\": \"2023-02-17T21:23:53.785Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7270/api/KupacVO",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7270",
+					"path": [
+						"api",
+						"KupacVO"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostZalba",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"zalbaID\": 0,\r\n  \"tip\": \"string\",\r\n  \"datumPodnosenjaZalbe\": \"2023-02-17T21:25:37.509Z\",\r\n  \"podnosilacZalbe\": \"string\",\r\n  \"razlogZalbe\": \"string\",\r\n  \"obrazlozenje\": \"string\",\r\n  \"datumResenja\": \"2023-02-17T21:25:37.509Z\",\r\n  \"brojResenja\": \"string\",\r\n  \"statusZalbe\": \"string\",\r\n  \"brojOdluka_BrojNadmetanja\": \"string\",\r\n  \"radnjaNaOsnovuZalbe\": \"string\",\r\n  \"kupacID\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7270/api/Zalba",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7270",
+					"path": [
+						"api",
+						"Zalba"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutKupac",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"kupacID\": 1014,\r\n  \"prioritet\": \"string\",\r\n  \"lice\": \"string\",\r\n  \"ostvarenaPovrsina\": 4000,\r\n  \"imaZabranu\": true,\r\n  \"datumPocetkaZabrane\": \"2023-02-17T21:26:49.306Z\",\r\n  \"duzinaTrajanjaZabraneUGodinama\": 0,\r\n  \"datumPrestankaZabrane\": \"2023-02-17T21:26:49.306Z\"\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7270/api/KupacVO/1014",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7270",
+					"path": [
+						"api",
+						"KupacVO",
+						"1014"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutZalba",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"zalbaID\": 1013,\r\n  \"tip\": \"tip\",\r\n  \"datumPodnosenjaZalbe\": \"2023-02-17T21:29:03.794Z\",\r\n  \"podnosilacZalbe\": \"string\",\r\n  \"razlogZalbe\": \"string\",\r\n  \"obrazlozenje\": \"string\",\r\n  \"datumResenja\": \"2023-02-17T21:29:03.794Z\",\r\n  \"brojResenja\": \"string\",\r\n  \"statusZalbe\": \"string\",\r\n  \"brojOdluka_BrojNadmetanja\": \"string\",\r\n  \"radnjaNaOsnovuZalbe\": \"string\",\r\n  \"kupacID\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7270/api/Zalba/1013",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7270",
+					"path": [
+						"api",
+						"Zalba",
+						"1013"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteKupac",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7270/api/KupacVO/1014",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7270",
+					"path": [
+						"api",
+						"KupacVO",
+						"1014"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteZalba",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7270/api/Zalba/1013",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7270",
+					"path": [
+						"api",
+						"Zalba",
+						"1013"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

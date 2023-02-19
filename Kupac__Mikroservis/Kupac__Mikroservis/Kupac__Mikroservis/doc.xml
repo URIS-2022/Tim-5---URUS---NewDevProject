@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kupac__Mikroservis</name>
+    </assembly>
+    <members>
+        <member name="T:Kupac__Mikroservis.Controllers.AdresaVOController">
+            <summary>
+            Predstavlja kontroler adrese
+            </summary>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.AdresaVOController.GetAdresaVOs">
+            <summary>
+            Vraća sve adrese 
+            </summary>
+            <returns>Listu adresa</returns>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.AdresaVOController.GetAdresaVO(System.Int32)">
+            <summary>
+            Vraća adresu po zadatoj vrednosti id-a
+            </summary>
+            <param name="AdresaID"></param>
+            <returns>Objekat adrese</returns>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.AdresaVOController.CreateAdresaVO(Kupac__Mikroservis.Models.AdresaVO)">
+            <summary>
+            Kreira novu adresu
+            </summary>
+            <param name="Adresa"></param>
+            <returns>Potvrdu o kreiranoj adresi</returns>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.AdresaVOController.UpdateAdresaVO(System.Int32,Kupac__Mikroservis.Models.AdresaVO)">
+            <summary>
+            Menja vrednosti postojeće adrese
+            </summary>
+            <param name="Adresa"></param>
+            <returns>Potvrdu o izmenjenoj adresi</returns>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.AdresaVOController.DeleteAdresaVO(System.Int32)">
+            <summary>
+            Briše adresu po zadatoj vrednosti id-a
+            </summary>
+            <param name="AdresaID"></param>
+        </member>
+        <member name="T:Kupac__Mikroservis.Controllers.KupacController">
+            <summary>
+            Predstavlja kontroler kupca
+            </summary>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.KupacController.GetKupacs">
+            <summary>
+            Vraća sve kupce 
+            </summary>
+            <returns>Listu oglasa</returns>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.KupacController.GetKupac(System.Int32)">
+            <summary>
+            Vraća kupca po zadatoj vrednosti id-a
+            </summary>
+            <param name="KupacID"></param>
+            <returns>Objekat kupca</returns>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.KupacController.CreateKupac(Kupac__Mikroservis.Models.DTO.KupacDTOCreate)">
+            <summary>
+            Kreira novog kupca
+            </summary>
+            <param name="Kupac"></param>
+            <returns>Potvrdu o kreiranom kupcu</returns>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.KupacController.UpdateKupacVO(System.Int32,Kupac__Mikroservis.Models.DTO.KupacDTOUpdate)">
+            <summary>
+            Menja vrednosti postojećeg kupca
+            </summary>
+            <param name="Kupac"></param>
+            <returns>Potvrdu o izmenjenom kupcu</returns>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.KupacController.DeleteKupac(System.Int32)">
+            <summary>
+            Briše kupca po zadatoj vrednosti id-a
+            </summary>
+            <param name="KupacID"></param>
+        </member>
+        <member name="F:Kupac__Mikroservis.Controllers.OvlascenoLiceController._ovlascenoLiceRepository">
+            <summary>
+            Predstavlja kontroler ovlascenog lica
+            </summary>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.OvlascenoLiceController.GetOvlascenoLice(System.Int32)">
+            <summary>
+            Vraća ovlasceno lice po zadatoj vrednosti id-a
+            </summary>
+            <param name="OvlascenoLiceID"></param>
+            <returns>Objekat ovlascenog lica</returns>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.OvlascenoLiceController.CreateOvlascenoLice(Kupac__Mikroservis.Models.DTO.OvlascenoLiceDTOCreate)">
+            <summary>
+            Kreira novo ovlasceno lice
+            </summary>
+            <param name="ovlascenoLice"></param>
+            <returns>Potvrdu o kreiranom ovlascenom licu</returns>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.OvlascenoLiceController.UpdateOvlascenoLice(System.Int32,Kupac__Mikroservis.Models.DTO.OvlascenoLiceDTOUpdate)">
+            <summary>
+            Menja vrednosti postojećeg ovlascenog lica
+            </summary>
+            <param name="OvlascenoLice"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.OvlascenoLiceController.DeleteOvlascenoLice(System.Int32)">
+            <summary>
+            Briše ovlasceno lice po zadatoj vrednosti id-a
+            </summary>
+            <param name="OvlascenoLiceID"></param>
+        </member>
+        <member name="T:Kupac__Mikroservis.Controllers.UplataController">
+            <summary>
+            Predstavlja kontroler uplate
+            </summary>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.UplataController.GetUplatas">
+            <summary>
+            Vraća sve uplate 
+            </summary>
+            <returns>Listu uplata</returns>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.UplataController.GetuPLATA(System.Int32)">
+            <summary>
+            Vraća uplatu po zadatoj vrednosti id-a
+            </summary>
+            <param name="UplataID"></param>
+            <returns>Objekat uplate</returns>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.UplataController.CreateUplata(Kupac__Mikroservis.Models.DTO.UplataDTOCreate)">
+            <summary>
+            Kreira novu uplatu
+            </summary>
+            <param name="Uplata"></param>
+            <returns>Potvrdu o kreiranoj uplati</returns>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.UplataController.UpdateUplata(System.Int32,Kupac__Mikroservis.Models.DTO.UplataDTOUpdate)">
+            <summary>
+            Menja vrednosti postojeće uplate
+            </summary>
+            <param name="Uplata"></param>
+            <returns>Potvrdu o izmenjenoj uplati</returns>
+        </member>
+        <member name="M:Kupac__Mikroservis.Controllers.UplataController.DeleteUplata(System.Int32)">
+            <summary>
+            Briše uplatu po zadatoj vrednosti id-a
+            </summary>
+            <param name="UplataID"></param>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.AdresaVODTO.AdresaID">
+            <summary>
+            Id adrese
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.AdresaVODTO.Mesto">
+            <summary>
+            Naziv mesta
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.AdresaVODTO.PostanskiBroj">
+            <summary>
+            Postanski broj grada
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.AdresaVODTO.Drzava">
+            <summary>
+            Naziv drzave
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.KupacDTO.KupacID">
+            <summary>
+            Id kupca
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.KupacDTO.Prioritet">
+            <summary>
+            Prioritet
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.KupacDTO.Lice">
+            <summary>
+            Lice
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.KupacDTO.OstvarenaPovrsina">
+            <summary>
+            Ostvarena povrsina
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.KupacDTO.ImaZabranu">
+            <summary>
+            Da li ima zabranu da/ne
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.KupacDTO.OvlascenoLiceID">
+            <summary>
+            Id ovlascenog lica
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.OvlascenoLiceDTO.OvlascenoLiceID">
+            <summary>
+            Id ovlascenog lica
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.OvlascenoLiceDTO.Ime">
+            <summary>
+            Ime ovlascenog lica
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.OvlascenoLiceDTO.Prezime">
+            <summary>
+            Prezime ovlascenog lica
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.OvlascenoLiceDTO.Drazava">
+            <summary>
+            Drzava iz koje je ovlasceno lice
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.UplataDTO.UplataID">
+            <summary>
+            Id uplate
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.UplataDTO.Iznos">
+            <summary>
+            Iznos uplate
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.UplataDTO.Uplatilac">
+            <summary>
+            Uplatilac
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.UplataDTO.SvrhaUplate">
+            <summary>
+            Svrha uplate
+            </summary>
+        </member>
+        <member name="P:Kupac__Mikroservis.Models.DTO.UplataDTO.Datum">
+            <summary>
+            Datum uplate
+            </summary>
+        </member>
+    </members>
+</doc>

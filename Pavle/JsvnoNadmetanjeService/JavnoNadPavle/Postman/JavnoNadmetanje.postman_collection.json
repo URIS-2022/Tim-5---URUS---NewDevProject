@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "21929c44-4dd0-4899-94c6-d9826497d113",
+		"name": "JavnoNadmetanje",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetJavnoNadmetanje",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7098/api/JavnoNadmetanjeAPI",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7098",
+					"path": [
+						"api",
+						"JavnoNadmetanjeAPI"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetJavnoNadmetanjeByID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:7098/api/JavnoNadmetanjeAPI/7",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7098",
+					"path": [
+						"api",
+						"JavnoNadmetanjeAPI",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostJavnoNadmetanje",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"javnoNadmetanjeID\": 0,\r\n  \"tip\": \"string\",\r\n  \"izuzeto\": true,\r\n  \"izlicitiranaCena\": 0,\r\n  \"brojUcesnika\": 0,\r\n  \"visinaDopuneDepozita\": 0,\r\n  \"status\": \"string\",\r\n  \"nadmetanjeID\": 2,\r\n  \"etapaID\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7098/api/JavnoNadmetanjeAPI",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7098",
+					"path": [
+						"api",
+						"JavnoNadmetanjeAPI"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutJavnoNadmetanje",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"javnoNadmetanjeID\": 11,\r\n  \"tip\": \"string\",\r\n  \"izuzeto\": true,\r\n  \"izlicitiranaCena\": 0,\r\n  \"brojUcesnika\": 0,\r\n  \"visinaDopuneDepozita\": 0,\r\n  \"status\": \"string\",\r\n  \"nadmetanjeID\": 7,\r\n  \"etapaID\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7098/api/JavnoNadmetanjeAPI/11",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7098",
+					"path": [
+						"api",
+						"JavnoNadmetanjeAPI",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteJavnoNadmetanje",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7098/api/JavnoNadmetanjeAPI/11",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7098",
+					"path": [
+						"api",
+						"JavnoNadmetanjeAPI",
+						"11"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

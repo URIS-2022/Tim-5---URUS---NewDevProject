@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Zalba_Mikroservis</name>
+    </assembly>
+    <members>
+        <member name="T:Zalba_Mikroservis.Controllers.KupacVOController">
+            <summary>
+            Predstavlja kontroler kupca
+            </summary>
+        </member>
+        <member name="M:Zalba_Mikroservis.Controllers.KupacVOController.GetKupacVOs">
+            <summary>
+            Vraća sve kupce 
+            </summary>
+            <returns>Listu kupaca</returns>
+        </member>
+        <member name="M:Zalba_Mikroservis.Controllers.KupacVOController.GetKupacVO(System.Int32)">
+            <summary>
+            Vraća kupca po zadatoj vrednosti id-a
+            </summary>
+            <param name="KupacID"></param>
+            <returns>Objekat kupca</returns>
+        </member>
+        <member name="M:Zalba_Mikroservis.Controllers.KupacVOController.CreateKupacVO(Zalba_Mikroservis.Models.KupacVO)">
+            <summary>
+            Kreira novog kupca
+            </summary>
+            <param name="Kupac"></param>
+            <returns>Potvrdu o kreiranom kupcu</returns>
+        </member>
+        <member name="M:Zalba_Mikroservis.Controllers.KupacVOController.UpdateKupacVO(System.Int32,Zalba_Mikroservis.Models.KupacVO)">
+            <summary>
+            Menja vrednosti postojećeg kupca
+            </summary>
+            <param name="Kupac"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="M:Zalba_Mikroservis.Controllers.KupacVOController.DeleteKupacVO(System.Int32)">
+            <summary>
+            Briše kupca po zadatoj vrednosti id-a
+            </summary>
+            <param name="KupacID"></param>
+        </member>
+        <member name="M:Zalba_Mikroservis.Controllers.ZalbaController.GetZalbas">
+            <summary>
+            Vraća sve zalbe 
+            </summary>
+            <returns>Listu zalbi</returns>
+        </member>
+        <member name="M:Zalba_Mikroservis.Controllers.ZalbaController.GetZalba(System.Int32)">
+            <summary>
+            Vraća zalbu po zadatoj vrednosti id-a
+            </summary>
+            <param name="ZalbaID"></param>
+            <returns>Objekat zalbe</returns>
+        </member>
+        <member name="M:Zalba_Mikroservis.Controllers.ZalbaController.CreateZalba(Zalba_Mikroservis.Models.DTO.ZalbaDTOCreate)">
+            <summary>
+            Kreira novu zalbu
+            </summary>
+            <param name="Zalba"></param>
+            <returns>Potvrdu o kreiranoj zalbi</returns>
+        </member>
+        <member name="M:Zalba_Mikroservis.Controllers.ZalbaController.UpdateZalba(System.Int32,Zalba_Mikroservis.Models.DTO.ZalbaDTOUpdate)">
+            <summary>
+            Menja vrednosti postojeće zalbe
+            </summary>
+            <param name="Zalba"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="M:Zalba_Mikroservis.Controllers.ZalbaController.DeleteZalba(System.Int32)">
+            <summary>
+            Briše zalbu po zadatoj vrednosti id-a
+            </summary>
+            <param name="ZalbaID"></param>
+        </member>
+        <member name="P:Zalba_Mikroservis.Models.DTO.KupacVODTO.KupacID">
+            <summary>
+            Id kupca
+            </summary>
+        </member>
+        <member name="P:Zalba_Mikroservis.Models.DTO.KupacVODTO.Prioritet">
+            <summary>
+            Prioritet 
+            </summary>
+        </member>
+        <member name="P:Zalba_Mikroservis.Models.DTO.KupacVODTO.Lice">
+            <summary>
+            Lice
+            </summary>
+        </member>
+        <member name="P:Zalba_Mikroservis.Models.DTO.KupacVODTO.OstvarenaPovrsina">
+            <summary>
+            Ostvarena povrsina 
+            </summary>
+        </member>
+        <member name="P:Zalba_Mikroservis.Models.DTO.KupacVODTO.ImaZabranu">
+            <summary>
+            Da li ima zabranu da/ne
+            </summary>
+        </member>
+        <member name="P:Zalba_Mikroservis.Models.DTO.ZalbaDTO.ZalbaID">
+            <summary>
+            Id zalbe 
+            </summary>
+        </member>
+        <member name="P:Zalba_Mikroservis.Models.DTO.ZalbaDTO.Tip">
+            <summary>
+            Tip zalbe
+            </summary>
+        </member>
+        <member name="P:Zalba_Mikroservis.Models.DTO.ZalbaDTO.PodnosilacZalbe">
+            <summary>
+            Podnosilac zalbe
+            </summary>
+        </member>
+        <member name="P:Zalba_Mikroservis.Models.DTO.ZalbaDTO.RazlogZalbe">
+            <summary>
+            Razlog zalbe
+            </summary>
+        </member>
+        <member name="P:Zalba_Mikroservis.Models.DTO.ZalbaDTO.Obrazlozenje">
+            <summary>
+            Obrazlozenje
+            </summary>
+        </member>
+        <member name="P:Zalba_Mikroservis.Models.DTO.ZalbaDTO.StatusZalbe">
+            <summary>
+            Status zalbe
+            </summary>
+        </member>
+        <member name="P:Zalba_Mikroservis.Models.DTO.ZalbaDTO.RadnjaNaOsnovuZalbe">
+            <summary>
+            Radnja na osnovu zalbe
+            </summary>
+        </member>
+        <member name="P:Zalba_Mikroservis.Models.DTO.ZalbaDTO.KupacID">
+            <summary>
+            Id kupca koji je podneo zalbu
+            </summary>
+        </member>
+    </members>
+</doc>

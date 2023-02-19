@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JavnoNadPavle</name>
+    </assembly>
+    <members>
+        <member name="T:JavnoNadPavle.Controllers.EtapaController">
+            <summary>
+            Predstavlja kontroler Etape
+            </summary>
+        </member>
+        <member name="M:JavnoNadPavle.Controllers.EtapaController.GetEtape">
+            <summary>
+            Vraća sve Etape 
+            </summary>
+        </member>
+        <member name="M:JavnoNadPavle.Controllers.EtapaController.GetEtapa(System.Int32)">
+            <summary>
+            Vraća Etape preko zadatog id-a 
+            </summary>
+        </member>
+        <member name="M:JavnoNadPavle.Controllers.EtapaController.CreateEtapa(JavnoNadPavle.Models.Etapa)">
+            <summary>
+            Kreira Novu Etapu 
+            </summary>
+        </member>
+        <member name="M:JavnoNadPavle.Controllers.EtapaController.UpdateEtapa(System.Int32,JavnoNadPavle.Models.Etapa)">
+            <summary>
+            Modifikuje etapu zadatu preko id-a
+            </summary>
+            <response code="204">Predsednik uspesno obrisan</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjen predsednik za brisanje</response>
+        </member>
+        <member name="M:JavnoNadPavle.Controllers.EtapaController.DeleteEtapa(System.Int32)">
+            <summary>
+            Brise zadatu etapu
+            </summary>
+            <response code="204">Predsednik uspesno obrisan</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjen predsednik za brisanje</response>
+        </member>
+        <member name="T:JavnoNadPavle.Controllers.JavnoNadmetanjeController">
+            <summary>
+            Predstavlja kontroler JavnogNadmetanja
+            </summary>
+        </member>
+        <member name="M:JavnoNadPavle.Controllers.JavnoNadmetanjeController.GetJavnaNadmetanja">
+            <summary>
+            Vraća sva JavnaNadmetanja
+            </summary>
+        </member>
+        <member name="M:JavnoNadPavle.Controllers.JavnoNadmetanjeController.GetJavnoNadmetanje(System.Int32)">
+            <summary>
+            Vraća JavnaNadmetanja preko zaatog id-a 
+            </summary>
+        </member>
+        <member name="M:JavnoNadPavle.Controllers.JavnoNadmetanjeController.CreateJavnoNadmetanje(JavnoNadPavle.Dto.JavnoNadmetanjeCreateDTO)">
+            <summary>
+            Kreira novo JavnoNadmetanje 
+            </summary>
+        </member>
+        <member name="M:JavnoNadPavle.Controllers.JavnoNadmetanjeController.UpdateJavnoNadmetanje(System.Int32,JavnoNadPavle.Dto.JavnoNadmetanjeUpdateDTO)">
+            <summary>
+            Modifikuje JanvoNadmetanje zadato preko id-a
+            </summary>
+            <response code="204">Predsednik uspesno obrisan</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjen predsednik za brisanje</response>
+        </member>
+        <member name="M:JavnoNadPavle.Controllers.JavnoNadmetanjeController.DeleteJavnoNadmetanje(System.Int32)">
+            <summary>
+            Brise zadato JavnoNadmetnaje
+            </summary>
+            <response code="204">Predsednik uspesno obrisan</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjen predsednik za brisanje</response>
+        </member>
+        <member name="T:JavnoNadPavle.Controllers.NadmetanjeController">
+            <summary>
+            Predstavlja kontroler Nadmetanja
+            </summary>
+        </member>
+        <member name="M:JavnoNadPavle.Controllers.NadmetanjeController.GetNadmetanja">
+            <summary>
+            Vraća sva Nadmetanja
+            </summary>
+        </member>
+        <member name="M:JavnoNadPavle.Controllers.NadmetanjeController.GetNadmetanje(System.Int32)">
+            <summary>
+            Vraća Nadmetanja preko zaatog id-a 
+            </summary>
+        </member>
+        <member name="M:JavnoNadPavle.Controllers.NadmetanjeController.CreateNadmetanje(JavnoNadPavle.Models.Nadmetanje)">
+            <summary>
+            Kreira novo nadmetanje 
+            </summary>
+        </member>
+        <member name="M:JavnoNadPavle.Controllers.NadmetanjeController.UpdateNadmetanje(System.Int32,JavnoNadPavle.Models.Nadmetanje)">
+            <summary>
+            Modifikuje nadmetanje zadato preko id-a
+            </summary>
+            <response code="204">Predsednik uspesno obrisan</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjen predsednik za brisanje</response>
+        </member>
+        <member name="M:JavnoNadPavle.Controllers.NadmetanjeController.DeleteNadmetanje(System.Int32)">
+            <summary>
+            Brise zadato nadmetnaje
+            </summary>
+            <response code="204">Predsednik uspesno obrisan</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjen predsednik za brisanje</response>
+        </member>
+        <member name="T:JavnoNadPavle.Migrations.mig1">
+            <inheritdoc />
+        </member>
+        <member name="M:JavnoNadPavle.Migrations.mig1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:JavnoNadPavle.Migrations.mig1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:JavnoNadPavle.Migrations.mig1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

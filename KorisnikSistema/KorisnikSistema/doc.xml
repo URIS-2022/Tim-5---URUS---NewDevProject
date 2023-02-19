@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KorisnikSistema</name>
+    </assembly>
+    <members>
+        <member name="M:KorisnikSistema.Controller1.KorisniciSistemaController.GetAll">
+            <summary>
+            Vraća sve korisnike sistema
+            </summary>
+            <param name="KorisnikSistema"></param>
+            <returns>Listu korisnika sistema</returns>
+        </member>
+        <member name="M:KorisnikSistema.Controller1.KorisniciSistemaController.GetById(System.Int32)">
+            <summary>
+            Vraća korisnika sistema po zadatoj vrednosti id-a
+            </summary>
+            <param name="id"></param>
+            <returns>Objekat korisnika sistema</returns>
+        </member>
+        <member name="M:KorisnikSistema.Controller1.KorisniciSistemaController.CreateKorisniciSistema(KorisnikSistema.Models.DTOs.KorisniciSistemaDTO)">
+            <summary>
+            Kreira novog korisnika sistema
+            </summary>
+            <param name="korisniciSistemaDTO"></param>
+            <returns>Potvrdu o kreiranom korisniku sistema</returns>
+        </member>
+        <member name="M:KorisnikSistema.Controller1.KorisniciSistemaController.UpdateKorisniciSistema(System.Int32,KorisnikSistema.Models.DTOs.KorisniciSistemaDTO)">
+            <summary>
+            Menja vrednosti postojećeg korisnika sistema
+            </summary>
+            <param name="korisniciSistemaDTO"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="M:KorisnikSistema.Controller1.KorisniciSistemaController.DeleteSluzbeniList(System.Int32)">
+            <summary>
+            Briše korisnika sistema po zadatoj vrednosti id-a
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:KorisnikSistema.Controller1.TipKorisnikaController.GetAll">
+            <summary>
+            Vraća sve tipove korisnika 
+            </summary>
+            <returns>Listu tipova korisnika</returns>
+        </member>
+        <member name="M:KorisnikSistema.Controller1.TipKorisnikaController.GetById(System.Int32)">
+            <summary>
+            Vraća tip korisnika po zadatoj vrednosti id-a
+            </summary>
+            <param name="id"></param>
+            <returns>Objekat tipa korisnika</returns>
+        </member>
+        <member name="M:KorisnikSistema.Controller1.TipKorisnikaController.Post(KorisnikSistema.Models.DTOs.TipKorisnikaDTO)">
+            <summary>
+            Kreira novi tip korisnika
+            </summary>
+            <param name="tipKorisnikaDTO"></param>
+            <returns>Potvrdu o kreiranom tipu korisnika</returns>
+            <response code="204">Tip korisnika uspesno kreiran</response>
+            <response code="400">Poslat neispravan zahtev</response>
+        </member>
+        <member name="M:KorisnikSistema.Controller1.TipKorisnikaController.Update(System.Int32,KorisnikSistema.Models.DTOs.TipKorisnikaDTO)">
+            <summary>
+            Menja vrednosti postojećeg tipa korisnika
+            </summary>
+            <param name="tipKorisnikaDTO"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="M:KorisnikSistema.Controller1.TipKorisnikaController.Delete(System.Int32)">
+            <summary>
+            Briše tip korisnika po zadatoj vrednosti id-a
+            </summary>
+            <param name="id"></param>
+            /// <response code="204">Tip korisnika uspesno obrisan</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjen tip korisnika za brisanje</response>
+        </member>
+        <member name="T:KorisnikSistema.Migrations.mig1">
+            <inheritdoc />
+        </member>
+        <member name="M:KorisnikSistema.Migrations.mig1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:KorisnikSistema.Migrations.mig1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:KorisnikSistema.Migrations.mig1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:KorisnikSistema.Models.DTOs.KorisniciSistemaDTO">
+            <summary>
+            Predstavlja model korisnika sistema
+            </summary>
+        </member>
+        <member name="T:KorisnikSistema.Models.DTOs.TipKorisnikaDTO">
+            <summary>
+            Predstavlja model tipa korisnika
+            </summary>
+        </member>
+    </members>
+</doc>

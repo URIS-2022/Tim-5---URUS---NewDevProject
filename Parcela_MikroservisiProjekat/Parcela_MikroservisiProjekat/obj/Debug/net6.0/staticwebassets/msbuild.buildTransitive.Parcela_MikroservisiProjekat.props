@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Parcela_MikroservisiProjekat.props" />
+</Project>

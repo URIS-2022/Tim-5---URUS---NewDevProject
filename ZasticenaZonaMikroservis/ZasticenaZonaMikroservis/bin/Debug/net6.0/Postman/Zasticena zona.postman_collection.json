@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "35c557bd-8ebc-479c-8d14-6f752d186def",
+		"name": "Zasticena zona",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25920706"
+	},
+	"item": [
+		{
+			"name": "GetAllZasticenaZona",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7119/api/ZasticenaZonaAPIController",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7119",
+					"path": [
+						"api",
+						"ZasticenaZonaAPIController"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetZasticenaZonaByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7119/api/ZasticenaZonaAPIController/13\n",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7119",
+					"path": [
+						"api",
+						"ZasticenaZonaAPIController",
+						"13\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostZasticenaZona",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"dozvoljeniRadovi\": \"provera post-a\",\r\n  \"stepenZastite\": 3,\r\n  \"vrstaZasticenogPodrucja\": \"rezervat\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7119/api/ZasticenaZonaAPIController",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7119",
+					"path": [
+						"api",
+						"ZasticenaZonaAPIController"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutZasticenaZona",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \"zasticenaZonaID\": 20,\r\n    \"dozvoljeniRadovi\": \"put postman\",\r\n    \"stepenZastite\": 3,\r\n    \"vrstaZasticenogPodrucja\": \"nacionalni park\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7119/api/ZasticenaZonaAPIController/20",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7119",
+					"path": [
+						"api",
+						"ZasticenaZonaAPIController",
+						"20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7119/api/ZasticenaZonaAPIController/22",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7119",
+					"path": [
+						"api",
+						"ZasticenaZonaAPIController",
+						"22"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

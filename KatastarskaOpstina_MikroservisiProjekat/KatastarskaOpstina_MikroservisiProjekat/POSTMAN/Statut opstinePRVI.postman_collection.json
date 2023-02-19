@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "9e4431e9-c19e-411b-8d50-965a667e9ac8",
+		"name": "Statut opstinePRVI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25920710"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7182/api/StatutOpstineAPIController",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7182",
+					"path": [
+						"api",
+						"StatutOpstineAPIController"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7182/api/StatutOpstineAPIController/7",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7182",
+					"path": [
+						"api",
+						"StatutOpstineAPIController",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"statutOpstineID\": 0,\r\n  \"clan\": \"333\",\r\n  \"stav\": \"string\",\r\n  \"tacka\": \"string\",\r\n  \"katastarskaOpstinaID\": 2\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7182/api/StatutOpstineAPIController",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7182",
+					"path": [
+						"api",
+						"StatutOpstineAPIController"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"statutOpstineID\": 7,\r\n  \"clan\": \"string\",\r\n  \"stav\": \"666666\",\r\n  \"tacka\": \"string\",\r\n  \"katastarskaOpstinaID\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7182/api/StatutOpstineAPIController/7",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7182",
+					"path": [
+						"api",
+						"StatutOpstineAPIController",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:7182/api/StatutOpstineAPIController/8",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7182",
+					"path": [
+						"api",
+						"StatutOpstineAPIController",
+						"8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dokument_Sergej</name>
+    </assembly>
+    <members>
+        <member name="T:Dokument_Sergej.Controllers.DokumentController">
+            <summary>
+            Predstavlja kontroler dokumenta
+            </summary>
+        </member>
+        <member name="M:Dokument_Sergej.Controllers.DokumentController.GetDokumenti">
+            <summary>
+            Vraća sve dokumente
+            </summary>
+            <returns>Listu dokumenata</returns>
+        </member>
+        <member name="M:Dokument_Sergej.Controllers.DokumentController.GetDokument(System.Int32)">
+            <summary>
+            Vraća dokument po zadatoj vrednosti id-a
+            </summary>
+            <param name="DokumentID"></param>
+            <returns>Objekat dokumenta</returns>
+        </member>
+        <member name="M:Dokument_Sergej.Controllers.DokumentController.CreateDocument(Dokument_Sergej.Data.DTO.DokumentDTOCreate)">
+            <summary>
+            Kreira novi dokument
+            </summary>
+            <param name="dokument"></param>
+            <returns>Potvrdu o kreiranom dokumentu</returns>
+            <response code="204">Dokument uspesno obrisan</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjen dokument za brisanje</response>
+        </member>
+        <member name="M:Dokument_Sergej.Controllers.DokumentController.UpdateDokument(System.Int32,Dokument_Sergej.Data.DTO.DokumentDTOUpdate)">
+            <summary>
+            Menja vrednosti postojećeg dokumenta
+            </summary>
+            <param name="Dokument"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="M:Dokument_Sergej.Controllers.DokumentController.DeleteDokument(System.Int32)">
+            <summary>
+            Briše dokument po zadatoj vrednosti id-a
+            </summary>
+            <param name="DokumentID"></param>
+        </member>
+        <member name="T:Dokument_Sergej.Controllers.KorisnikSistemaController">
+            <summary>
+            Predstavlja kontroler korisnika sistema
+            </summary>
+        </member>
+        <member name="M:Dokument_Sergej.Controllers.KorisnikSistemaController.GetKorisniciSistema">
+            <summary>
+            Vraća sve korisnike sistema
+            </summary>
+            <returns>Listu korisnikaSistema</returns>
+        </member>
+        <member name="M:Dokument_Sergej.Controllers.KorisnikSistemaController.GetKorisnikSistema(System.Int32)">
+            <summary>
+            Vraća korisnika sistema po zadatoj vrednosti id-a
+            </summary>
+            <param name="KorisnikSistemaID"></param>
+            <returns>Objekat korisnikaSistema</returns>
+        </member>
+        <member name="M:Dokument_Sergej.Controllers.KorisnikSistemaController.CreateKorisniciSistema(Dokument_Sergej.Models.KorisnikSistema)">
+            <summary>
+            Kreira novog korisnika sistema
+            </summary>
+            <param name="korisnik"></param>
+            <returns>Potvrdu o kreiranom korisniku</returns>
+            <response code="204">Korisnik uspesno obrisan</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjen korisnik za brisanje</response>
+        </member>
+        <member name="M:Dokument_Sergej.Controllers.KorisnikSistemaController.UpdateKorisnikSistema(System.Int32,Dokument_Sergej.Models.KorisnikSistema)">
+            <summary>
+            Menja vrednosti postojećeg korisnika
+            </summary>
+            <param name="KorisnikSistema"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="M:Dokument_Sergej.Controllers.KorisnikSistemaController.DeleteKorisnikSistema(System.Int32)">
+            <summary>
+            Briše korisnika po zadatoj vrednosti id-a
+            </summary>
+            <param name="KorisnikSistemaID"></param>
+        </member>
+        <member name="T:Dokument_Sergej.Controllers.LicnostController">
+            <summary>
+            Predstavlja kontroler licnosti
+            </summary>
+        </member>
+        <member name="M:Dokument_Sergej.Controllers.LicnostController.GetLicnosti">
+            <summary>
+            Vraća sve licnosti
+            </summary>
+            <returns>Listu licnosti</returns>
+        </member>
+        <member name="M:Dokument_Sergej.Controllers.LicnostController.GetLicnost(System.Int32)">
+            <summary>
+            Vraća licnost po zadatoj vrednosti id-a
+            </summary>
+            <param name="LicnostID"></param>
+            <returns>Objekat licnosti</returns>
+        </member>
+        <member name="M:Dokument_Sergej.Controllers.LicnostController.CreateLicnost(Dokument_Sergej.Models.Licnost)">
+            <summary>
+            Kreira novu licnost
+            </summary>
+            <param name="licnost"></param>
+            <returns>Potvrdu o kreiranoj licnosti</returns>
+            <response code="204">Licnost uspesno obrisana</response>
+            <response code="400">Poslat neispravan zahtev</response>
+            <response code="404">Nije pronadjena licnost za brisanje</response>
+        </member>
+        <member name="M:Dokument_Sergej.Controllers.LicnostController.UpdateLicnost(System.Int32,Dokument_Sergej.Models.Licnost)">
+            <summary>
+            Menja vrednosti postojeće licnosti
+            </summary>
+            <param name="Licnost"></param>
+            <returns>Potvrdu o izmenjenom objektu</returns>
+        </member>
+        <member name="M:Dokument_Sergej.Controllers.LicnostController.DeleteLicnost(System.Int32)">
+            <summary>
+            Briše licnost po zadatoj vrednosti id-a
+            </summary>
+            <param name="LicnostID"></param>
+        </member>
+        <member name="T:Dokument_Sergej.Data.DTO.DokumentDTO">
+            <summary>
+            Predstavlja model dokumenta
+            </summary>
+        </member>
+        <member name="P:Dokument_Sergej.Data.DTO.DokumentDTO.DokumentID">
+            <summary>
+            Id dokumenta
+            </summary>
+        </member>
+        <member name="P:Dokument_Sergej.Data.DTO.DokumentDTO.ZavodniBroj">
+            <summary>
+            Zavodni broj dokumenta
+            </summary>
+        </member>
+        <member name="P:Dokument_Sergej.Data.DTO.DokumentDTO.Datum">
+            <summary>
+            Datum 
+            </summary>
+        </member>
+        <member name="P:Dokument_Sergej.Data.DTO.DokumentDTO.DatumDonosenjaOdluke">
+            <summary>
+            Datum donosenja odluke
+            </summary>
+        </member>
+        <member name="T:Dokument_Sergej.Data.DTO.KorisnikSistemaDTO">
+            <summary>
+            Predstavlja model korisnika sistema
+            </summary>
+        </member>
+        <member name="P:Dokument_Sergej.Data.DTO.KorisnikSistemaDTO.KorisnikSistemaID">
+            <summary>
+            Id korisnika sistema
+            </summary>
+        </member>
+        <member name="P:Dokument_Sergej.Data.DTO.KorisnikSistemaDTO.Ime">
+            <summary>
+            Ime korisnika
+            </summary>
+        </member>
+        <member name="P:Dokument_Sergej.Data.DTO.KorisnikSistemaDTO.Prezime">
+            <summary>
+            Prezime korisnika
+            </summary>
+        </member>
+        <member name="P:Dokument_Sergej.Data.DTO.KorisnikSistemaDTO.KorisnickoIme">
+            <summary>
+            Korisnicko ime 
+            </summary>
+        </member>
+        <member name="T:Dokument_Sergej.Data.DTO.LicnostDTO">
+            <summary>
+            Predstavlja model licnosti
+            </summary>
+        </member>
+        <member name="P:Dokument_Sergej.Data.DTO.LicnostDTO.LicnostID">
+            <summary>
+            Id licnosti
+            </summary>
+        </member>
+        <member name="P:Dokument_Sergej.Data.DTO.LicnostDTO.Ime">
+            <summary>
+            Ime licnosti
+            </summary>
+        </member>
+        <member name="P:Dokument_Sergej.Data.DTO.LicnostDTO.Prezime">
+            <summary>
+            Prezime licnosti
+            </summary>
+        </member>
+        <member name="T:Dokument_Sergej.Migrations.InitialComit">
+            <inheritdoc />
+        </member>
+        <member name="M:Dokument_Sergej.Migrations.InitialComit.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Dokument_Sergej.Migrations.InitialComit.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Dokument_Sergej.Migrations.InitialComit.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
